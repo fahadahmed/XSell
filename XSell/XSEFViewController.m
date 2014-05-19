@@ -7,15 +7,10 @@
 //
 
 #import "XSEFViewController.h"
-#import <PDFTouch/PDFTouch.h>
 
-@interface XSEFViewController () <YLPDFViewControllerDelegate> {
-    YLDocument *_document;
+@interface XSEFViewController () {
+    
 }
-@property (nonatomic, readonly) YLDocument *document;
-
-- (void)modalPushView;
-
 @end
 
 @implementation XSEFViewController
@@ -25,6 +20,9 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+        self.title = @"PDFTouch SDK Demo";
+        
+        self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Examples" style:UIBarButtonItemStyleDone target:nil action:nil];
     }
     return self;
 }
@@ -40,5 +38,45 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+/*- (YLDocument *)document {
+    if (_document == nil) {
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"Developers" ofType:@"pdf"];
+        _document = [[YLDocument alloc] initWithFilePath:path];
+        if (_document.isLocked) {
+            [_document unlockWithPassword:@""];
+        }
+    }
+    return _document;
+}*/
+
+- (void)showBrochure:(id)sender {
+    
+}
+/*
+#pragma mark -
+#pragma mark YLPDFViewControllerDelegate Methods
+- (void)pdfViewController:(YLPDFViewController *)controller didDisplayDocument:(YLDocument *)document {
+    NSLog(@"Did display document.");
+}
+
+- (void)pdfViewController:(YLPDFViewController *)controller willDismissDocument:(YLDocument *)document {
+    NSLog(@"Will dismiss document.");
+}
+
+#pragma mark -
+#pragma mark Private Methods
+
+- (void)modalPDFView {
+    YLPDFViewController *v = [[YLPDFViewController alloc] initWithDocument:self.document];
+    [v setDelegate:self];
+    [v setDocumentMode:YLDocumentModeSingle];
+    [v setPageCurlEnabled:YES];
+    [v setDocumentLead:YLDocumentLeadRight];
+    [v setModalPresentationStyle:UIModalPresentationFullScreen];
+    [v setModalTransitionStyle:UIModalTransitionStyleCoverVertical];
+    [self.navigationController presentViewController:v animated:YES completion:nil];
+}
+*/
 
 @end

@@ -28,8 +28,6 @@
 		EC3875811929B4DE001B28E5 /* XSActionListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3875801929B4DE001B28E5 /* XSActionListViewController.m */; };
 		EC3875841929B4ED001B28E5 /* XSSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3875831929B4ED001B28E5 /* XSSearchViewController.m */; };
 		EC3875871929B50F001B28E5 /* XSReferenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3875861929B50F001B28E5 /* XSReferenceViewController.m */; };
-		EC3875891929C697001B28E5 /* PDFTouch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC3875881929C697001B28E5 /* PDFTouch.framework */; };
-		EC38758B1929C6B9001B28E5 /* PDFTouch.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EC38758A1929C6B9001B28E5 /* PDFTouch.bundle */; };
 		EC38758E1929C724001B28E5 /* XSEFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC38758D1929C724001B28E5 /* XSEFViewController.m */; };
 		EC3875901929C853001B28E5 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC38758F1929C853001B28E5 /* MessageUI.framework */; };
 		EC3875921929C85C001B28E5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC3875911929C85C001B28E5 /* MapKit.framework */; };
@@ -81,7 +79,6 @@
 		EC3875851929B50F001B28E5 /* XSReferenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSReferenceViewController.h; sourceTree = "<group>"; };
 		EC3875861929B50F001B28E5 /* XSReferenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSReferenceViewController.m; sourceTree = "<group>"; };
 		EC3875881929C697001B28E5 /* PDFTouch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PDFTouch.framework; sourceTree = "<group>"; };
-		EC38758A1929C6B9001B28E5 /* PDFTouch.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PDFTouch.bundle; sourceTree = "<group>"; };
 		EC38758C1929C724001B28E5 /* XSEFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSEFViewController.h; sourceTree = "<group>"; };
 		EC38758D1929C724001B28E5 /* XSEFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSEFViewController.m; sourceTree = "<group>"; };
 		EC38758F1929C853001B28E5 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
@@ -108,7 +105,6 @@
 				EC0F240B1927021B00C19426 /* CoreData.framework in Frameworks */,
 				EC0F24091927021B00C19426 /* UIKit.framework in Frameworks */,
 				EC0F24051927021B00C19426 /* Foundation.framework in Frameworks */,
-				EC3875891929C697001B28E5 /* PDFTouch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,7 +185,6 @@
 		EC0F240D1927021B00C19426 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				EC38758A1929C6B9001B28E5 /* PDFTouch.bundle */,
 				EC60682919298D8A00176DF8 /* Documents */,
 				EC60682819298D7E00176DF8 /* Images */,
 				EC0F24181927021B00C19426 /* XSell.xcdatamodeld */,
@@ -314,7 +309,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC38759C1929C9FD001B28E5 /* Developers.pdf in Resources */,
-				EC38758B1929C6B9001B28E5 /* PDFTouch.bundle in Resources */,
 				EC38756F192990FD001B28E5 /* XSell.storyboard in Resources */,
 				EC0F24111927021B00C19426 /* InfoPlist.strings in Resources */,
 				EC0F241C1927021B00C19426 /* Images.xcassets in Resources */,

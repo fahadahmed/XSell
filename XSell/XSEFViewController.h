@@ -12,4 +12,7 @@
 @property (nonatomic, strong) NSArray *products;
 @property (nonatomic, strong) NSString *businessDescription;
 
+
+- (IBAction)showBrochure:(id)sender;
+
 @end
