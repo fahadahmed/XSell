@@ -10,4 +10,6 @@
 
 @interface XSHomeViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
+@property (nonatomic, weak) IBOutlet UITableView *tblContactList;
+
 @end

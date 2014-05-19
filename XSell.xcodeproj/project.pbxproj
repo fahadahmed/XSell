@@ -28,6 +28,16 @@
 		EC3875811929B4DE001B28E5 /* XSActionListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3875801929B4DE001B28E5 /* XSActionListViewController.m */; };
 		EC3875841929B4ED001B28E5 /* XSSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3875831929B4ED001B28E5 /* XSSearchViewController.m */; };
 		EC3875871929B50F001B28E5 /* XSReferenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3875861929B50F001B28E5 /* XSReferenceViewController.m */; };
+		EC3875891929C697001B28E5 /* PDFTouch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC3875881929C697001B28E5 /* PDFTouch.framework */; };
+		EC38758B1929C6B9001B28E5 /* PDFTouch.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EC38758A1929C6B9001B28E5 /* PDFTouch.bundle */; };
+		EC38758E1929C724001B28E5 /* XSEFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC38758D1929C724001B28E5 /* XSEFViewController.m */; };
+		EC3875901929C853001B28E5 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC38758F1929C853001B28E5 /* MessageUI.framework */; };
+		EC3875921929C85C001B28E5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC3875911929C85C001B28E5 /* MapKit.framework */; };
+		EC3875941929C876001B28E5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC3875931929C876001B28E5 /* CoreLocation.framework */; };
+		EC3875961929C88C001B28E5 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC3875951929C88C001B28E5 /* MediaPlayer.framework */; };
+		EC3875981929C898001B28E5 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC3875971929C898001B28E5 /* CoreText.framework */; };
+		EC38759A1929C8A7001B28E5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC3875991929C8A7001B28E5 /* QuartzCore.framework */; };
+		EC38759C1929C9FD001B28E5 /* Developers.pdf in Resources */ = {isa = PBXBuildFile; fileRef = EC38759B1929C9FD001B28E5 /* Developers.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +80,17 @@
 		EC3875831929B4ED001B28E5 /* XSSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSSearchViewController.m; sourceTree = "<group>"; };
 		EC3875851929B50F001B28E5 /* XSReferenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSReferenceViewController.h; sourceTree = "<group>"; };
 		EC3875861929B50F001B28E5 /* XSReferenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSReferenceViewController.m; sourceTree = "<group>"; };
+		EC3875881929C697001B28E5 /* PDFTouch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PDFTouch.framework; sourceTree = "<group>"; };
+		EC38758A1929C6B9001B28E5 /* PDFTouch.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PDFTouch.bundle; sourceTree = "<group>"; };
+		EC38758C1929C724001B28E5 /* XSEFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSEFViewController.h; sourceTree = "<group>"; };
+		EC38758D1929C724001B28E5 /* XSEFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSEFViewController.m; sourceTree = "<group>"; };
+		EC38758F1929C853001B28E5 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		EC3875911929C85C001B28E5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		EC3875931929C876001B28E5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EC3875951929C88C001B28E5 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		EC3875971929C898001B28E5 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		EC3875991929C8A7001B28E5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EC38759B1929C9FD001B28E5 /* Developers.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Developers.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,10 +98,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC38759A1929C8A7001B28E5 /* QuartzCore.framework in Frameworks */,
+				EC3875981929C898001B28E5 /* CoreText.framework in Frameworks */,
+				EC3875961929C88C001B28E5 /* MediaPlayer.framework in Frameworks */,
+				EC3875941929C876001B28E5 /* CoreLocation.framework in Frameworks */,
+				EC3875921929C85C001B28E5 /* MapKit.framework in Frameworks */,
+				EC3875901929C853001B28E5 /* MessageUI.framework in Frameworks */,
 				EC0F24071927021B00C19426 /* CoreGraphics.framework in Frameworks */,
 				EC0F240B1927021B00C19426 /* CoreData.framework in Frameworks */,
 				EC0F24091927021B00C19426 /* UIKit.framework in Frameworks */,
 				EC0F24051927021B00C19426 /* Foundation.framework in Frameworks */,
+				EC3875891929C697001B28E5 /* PDFTouch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +149,13 @@
 		EC0F24031927021B00C19426 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EC3875991929C8A7001B28E5 /* QuartzCore.framework */,
+				EC3875971929C898001B28E5 /* CoreText.framework */,
+				EC3875951929C88C001B28E5 /* MediaPlayer.framework */,
+				EC3875931929C876001B28E5 /* CoreLocation.framework */,
+				EC3875911929C85C001B28E5 /* MapKit.framework */,
+				EC38758F1929C853001B28E5 /* MessageUI.framework */,
+				EC3875881929C697001B28E5 /* PDFTouch.framework */,
 				EC0F24041927021B00C19426 /* Foundation.framework */,
 				EC0F24061927021B00C19426 /* CoreGraphics.framework */,
 				EC0F24081927021B00C19426 /* UIKit.framework */,
@@ -145,6 +180,8 @@
 				EC3875801929B4DE001B28E5 /* XSActionListViewController.m */,
 				EC3875821929B4ED001B28E5 /* XSSearchViewController.h */,
 				EC3875831929B4ED001B28E5 /* XSSearchViewController.m */,
+				EC38758C1929C724001B28E5 /* XSEFViewController.h */,
+				EC38758D1929C724001B28E5 /* XSEFViewController.m */,
 			);
 			path = XSell;
 			sourceTree = "<group>";
@@ -152,6 +189,7 @@
 		EC0F240D1927021B00C19426 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EC38758A1929C6B9001B28E5 /* PDFTouch.bundle */,
 				EC60682919298D8A00176DF8 /* Documents */,
 				EC60682819298D7E00176DF8 /* Images */,
 				EC0F24181927021B00C19426 /* XSell.xcdatamodeld */,
@@ -194,6 +232,7 @@
 		EC60682919298D8A00176DF8 /* Documents */ = {
 			isa = PBXGroup;
 			children = (
+				EC38759B1929C9FD001B28E5 /* Developers.pdf */,
 			);
 			name = Documents;
 			sourceTree = "<group>";
@@ -274,6 +313,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC38759C1929C9FD001B28E5 /* Developers.pdf in Resources */,
+				EC38758B1929C6B9001B28E5 /* PDFTouch.bundle in Resources */,
 				EC38756F192990FD001B28E5 /* XSell.storyboard in Resources */,
 				EC0F24111927021B00C19426 /* InfoPlist.strings in Resources */,
 				EC0F241C1927021B00C19426 /* Images.xcassets in Resources */,
@@ -297,6 +338,7 @@
 			files = (
 				EC0F24131927021B00C19426 /* main.m in Sources */,
 				EC3875841929B4ED001B28E5 /* XSSearchViewController.m in Sources */,
+				EC38758E1929C724001B28E5 /* XSEFViewController.m in Sources */,
 				EC3875811929B4DE001B28E5 /* XSActionListViewController.m in Sources */,
 				EC0F24171927021B00C19426 /* XSAppDelegate.m in Sources */,
 				EC0F241A1927021B00C19426 /* XSell.xcdatamodeld in Sources */,
@@ -423,6 +465,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/fahadahmed/Desktop/XSell,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XSell/XSell-Prefix.pch";
 				INFOPLIST_FILE = "XSell/XSell-Info.plist";
@@ -436,6 +482,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/fahadahmed/Desktop/XSell,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XSell/XSell-Prefix.pch";
 				INFOPLIST_FILE = "XSell/XSell-Info.plist";

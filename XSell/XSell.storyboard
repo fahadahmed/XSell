@@ -470,10 +470,10 @@
             </objects>
             <point key="canvasLocation" x="1294" y="818"/>
         </scene>
-        <!--View Controller - Home-->
+        <!--Home View Controller - Home-->
         <scene sceneID="YwH-8E-Wfb">
             <objects>
-                <viewController id="Fll-jr-sQT" sceneMemberID="viewController">
+                <viewController id="Fll-jr-sQT" customClass="XSHomeViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0yT-E9-wn6"/>
                         <viewControllerLayoutGuide type="bottom" id="oQ8-pS-znX"/>
@@ -496,6 +496,10 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="Fll-jr-sQT" id="CrK-Eo-HAX"/>
+                                    <outlet property="delegate" destination="Fll-jr-sQT" id="1xe-NG-OJj"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -503,6 +507,9 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Home" id="yo5-hp-vI3"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="tblContactList" destination="cyY-gt-6YS" id="ECm-oV-xYm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8zz-n0-KFu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
