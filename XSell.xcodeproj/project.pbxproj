@@ -86,8 +86,8 @@
 		EC0F23F81927021B00C19426 = {
 			isa = PBXGroup;
 			children = (
-				EC0F240D1927021B00C19426 /* Supporting Files */,
 				EC0F240C1927021B00C19426 /* XSell */,
+				EC0F240D1927021B00C19426 /* Supporting Files */,
 				EC0F24291927021B00C19426 /* XSellTests */,
 				EC0F24031927021B00C19426 /* Frameworks */,
 				EC0F24021927021B00C19426 /* Products */,
@@ -120,7 +120,6 @@
 			children = (
 				EC0F24151927021B00C19426 /* XSAppDelegate.h */,
 				EC0F24161927021B00C19426 /* XSAppDelegate.m */,
-				EC38756E192990FD001B28E5 /* XSell.storyboard */,
 			);
 			path = XSell;
 			sourceTree = "<group>";
@@ -131,6 +130,7 @@
 				EC60682919298D8A00176DF8 /* Documents */,
 				EC60682819298D7E00176DF8 /* Images */,
 				EC0F24181927021B00C19426 /* XSell.xcdatamodeld */,
+				EC38756E192990FD001B28E5 /* XSell.storyboard */,
 				EC0F240E1927021B00C19426 /* XSell-Info.plist */,
 				EC0F240F1927021B00C19426 /* InfoPlist.strings */,
 				EC0F241B1927021B00C19426 /* Images.xcassets */,
