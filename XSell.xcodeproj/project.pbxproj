@@ -24,6 +24,10 @@
 		EC0F24301927021B00C19426 /* XSellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0F242F1927021B00C19426 /* XSellTests.m */; };
 		EC38756F192990FD001B28E5 /* XSell.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC38756E192990FD001B28E5 /* XSell.storyboard */; };
 		EC38757B19299C01001B28E5 /* XSBusinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC38757A19299C01001B28E5 /* XSBusinessViewController.m */; };
+		EC38757E1929B4BA001B28E5 /* XSHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC38757D1929B4BA001B28E5 /* XSHomeViewController.m */; };
+		EC3875811929B4DE001B28E5 /* XSActionListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3875801929B4DE001B28E5 /* XSActionListViewController.m */; };
+		EC3875841929B4ED001B28E5 /* XSSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3875831929B4ED001B28E5 /* XSSearchViewController.m */; };
+		EC3875871929B50F001B28E5 /* XSReferenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3875861929B50F001B28E5 /* XSReferenceViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +62,14 @@
 		EC38756E192990FD001B28E5 /* XSell.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = XSell.storyboard; sourceTree = "<group>"; };
 		EC38757919299C01001B28E5 /* XSBusinessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSBusinessViewController.h; sourceTree = "<group>"; };
 		EC38757A19299C01001B28E5 /* XSBusinessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSBusinessViewController.m; sourceTree = "<group>"; };
+		EC38757C1929B4BA001B28E5 /* XSHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSHomeViewController.h; sourceTree = "<group>"; };
+		EC38757D1929B4BA001B28E5 /* XSHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSHomeViewController.m; sourceTree = "<group>"; };
+		EC38757F1929B4DE001B28E5 /* XSActionListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSActionListViewController.h; sourceTree = "<group>"; };
+		EC3875801929B4DE001B28E5 /* XSActionListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSActionListViewController.m; sourceTree = "<group>"; };
+		EC3875821929B4ED001B28E5 /* XSSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSSearchViewController.h; sourceTree = "<group>"; };
+		EC3875831929B4ED001B28E5 /* XSSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSSearchViewController.m; sourceTree = "<group>"; };
+		EC3875851929B50F001B28E5 /* XSReferenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSReferenceViewController.h; sourceTree = "<group>"; };
+		EC3875861929B50F001B28E5 /* XSReferenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSReferenceViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +137,14 @@
 				EC38757A19299C01001B28E5 /* XSBusinessViewController.m */,
 				EC0F24151927021B00C19426 /* XSAppDelegate.h */,
 				EC0F24161927021B00C19426 /* XSAppDelegate.m */,
+				EC38757C1929B4BA001B28E5 /* XSHomeViewController.h */,
+				EC38757D1929B4BA001B28E5 /* XSHomeViewController.m */,
+				EC3875851929B50F001B28E5 /* XSReferenceViewController.h */,
+				EC3875861929B50F001B28E5 /* XSReferenceViewController.m */,
+				EC38757F1929B4DE001B28E5 /* XSActionListViewController.h */,
+				EC3875801929B4DE001B28E5 /* XSActionListViewController.m */,
+				EC3875821929B4ED001B28E5 /* XSSearchViewController.h */,
+				EC3875831929B4ED001B28E5 /* XSSearchViewController.m */,
 			);
 			path = XSell;
 			sourceTree = "<group>";
@@ -276,9 +296,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC0F24131927021B00C19426 /* main.m in Sources */,
+				EC3875841929B4ED001B28E5 /* XSSearchViewController.m in Sources */,
+				EC3875811929B4DE001B28E5 /* XSActionListViewController.m in Sources */,
 				EC0F24171927021B00C19426 /* XSAppDelegate.m in Sources */,
 				EC0F241A1927021B00C19426 /* XSell.xcdatamodeld in Sources */,
 				EC38757B19299C01001B28E5 /* XSBusinessViewController.m in Sources */,
+				EC38757E1929B4BA001B28E5 /* XSHomeViewController.m in Sources */,
+				EC3875871929B50F001B28E5 /* XSReferenceViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
