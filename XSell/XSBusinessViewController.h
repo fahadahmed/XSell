@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface XSBusinessViewController : UIViewController
+@interface XSBusinessViewController : UIViewController <UISearchBarDelegate>
 
 @end
