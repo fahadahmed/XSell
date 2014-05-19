@@ -22,6 +22,7 @@
 		EC0F24261927021B00C19426 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC0F240A1927021B00C19426 /* CoreData.framework */; };
 		EC0F242E1927021B00C19426 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC0F242C1927021B00C19426 /* InfoPlist.strings */; };
 		EC0F24301927021B00C19426 /* XSellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0F242F1927021B00C19426 /* XSellTests.m */; };
+		EC38756F192990FD001B28E5 /* XSell.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC38756E192990FD001B28E5 /* XSell.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		EC0F242B1927021B00C19426 /* XSellTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XSellTests-Info.plist"; sourceTree = "<group>"; };
 		EC0F242D1927021B00C19426 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EC0F242F1927021B00C19426 /* XSellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSellTests.m; sourceTree = "<group>"; };
+		EC38756E192990FD001B28E5 /* XSell.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = XSell.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		EC0F23F81927021B00C19426 = {
 			isa = PBXGroup;
 			children = (
+				EC0F240D1927021B00C19426 /* Supporting Files */,
 				EC0F240C1927021B00C19426 /* XSell */,
 				EC0F24291927021B00C19426 /* XSellTests */,
 				EC0F24031927021B00C19426 /* Frameworks */,
@@ -117,9 +120,7 @@
 			children = (
 				EC0F24151927021B00C19426 /* XSAppDelegate.h */,
 				EC0F24161927021B00C19426 /* XSAppDelegate.m */,
-				EC0F241B1927021B00C19426 /* Images.xcassets */,
-				EC0F24181927021B00C19426 /* XSell.xcdatamodeld */,
-				EC0F240D1927021B00C19426 /* Supporting Files */,
+				EC38756E192990FD001B28E5 /* XSell.storyboard */,
 			);
 			path = XSell;
 			sourceTree = "<group>";
@@ -127,12 +128,17 @@
 		EC0F240D1927021B00C19426 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EC60682919298D8A00176DF8 /* Documents */,
+				EC60682819298D7E00176DF8 /* Images */,
+				EC0F24181927021B00C19426 /* XSell.xcdatamodeld */,
 				EC0F240E1927021B00C19426 /* XSell-Info.plist */,
 				EC0F240F1927021B00C19426 /* InfoPlist.strings */,
+				EC0F241B1927021B00C19426 /* Images.xcassets */,
 				EC0F24121927021B00C19426 /* main.m */,
 				EC0F24141927021B00C19426 /* XSell-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			path = XSell;
 			sourceTree = "<group>";
 		};
 		EC0F24291927021B00C19426 /* XSellTests */ = {
@@ -151,6 +157,20 @@
 				EC0F242C1927021B00C19426 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC60682819298D7E00176DF8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		EC60682919298D8A00176DF8 /* Documents */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Documents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC38756F192990FD001B28E5 /* XSell.storyboard in Resources */,
 				EC0F24111927021B00C19426 /* InfoPlist.strings in Resources */,
 				EC0F241C1927021B00C19426 /* Images.xcassets in Resources */,
 			);
@@ -454,6 +475,7 @@
 				EC0F24351927021B00C19426 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC0F24361927021B00C19426 /* Build configuration list for PBXNativeTarget "XSellTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +484,7 @@
 				EC0F24381927021B00C19426 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
