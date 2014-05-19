@@ -7,44 +7,67 @@
         <!--View Controller-->
         <scene sceneID="rdZ-01-YXt">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RW2-jV-04X" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="chf-Tb-icq" sceneMemberID="viewController">
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-311" y="-225"/>
+        </scene>
+        <!--View Controller - Equipment Finance-->
+        <scene sceneID="7az-4O-KC5">
+            <objects>
+                <viewController id="12f-j8-rLK" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="lBl-e0-wxJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="gBD-ew-HtB"/>
+                        <viewControllerLayoutGuide type="top" id="EZx-NL-PBb"/>
+                        <viewControllerLayoutGuide type="bottom" id="qxh-R8-Xpa"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="xBC-ra-hYg">
+                    <view key="view" contentMode="scaleToFill" id="IiT-EG-NJ4">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="XSell" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8uG-g4-7Xe">
-                                <rect key="frame" x="208" y="146" width="608" height="119"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBlack" family="Helvetica Neue" pointSize="70"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nCy-lV-RGv">
-                                <rect key="frame" x="345" y="444" width="334" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.16420506386861314" green="0.41266537408759124" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="40"/>
-                                <state key="normal" title="Enter">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Equipment Finance" id="oXL-Yc-OwO"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="RW2-jV-04X" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4B2-Lr-b7Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-311" y="-225"/>
+            <point key="canvasLocation" x="863" y="-625"/>
+        </scene>
+        <!--View Controller - Distribution Finance-->
+        <scene sceneID="1RK-d3-Qnr">
+            <objects>
+                <viewController id="dI2-u7-TxZ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9fr-0f-S0j"/>
+                        <viewControllerLayoutGuide type="bottom" id="eRy-WS-ND1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="g9x-7b-9J4">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Distribution Finance" id="zff-WO-3uj"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NOm-tX-aCQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2093" y="-625"/>
         </scene>
         <!--View Controller - Business Connect-->
         <scene sceneID="btZ-5H-R9m">
             <objects>
+                <searchDisplayController id="bWO-v9-9Ct">
+                    <connections>
+                        <outlet property="delegate" destination="PUC-Fy-cFk" id="97a-Ej-Xdf"/>
+                        <outlet property="searchContentsController" destination="PUC-Fy-cFk" id="qWY-qW-LQ0"/>
+                        <outlet property="searchResultsDataSource" destination="PUC-Fy-cFk" id="jy8-Un-rkY"/>
+                        <outlet property="searchResultsDelegate" destination="PUC-Fy-cFk" id="0wX-Lc-mxD"/>
+                    </connections>
+                </searchDisplayController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vTJ-SA-cPj" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="PUC-Fy-cFk" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="it8-Lp-ZAz"/>
@@ -54,29 +77,136 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Business Connect" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uo2-ip-TOy">
-                                <rect key="frame" x="485" y="166" width="140" height="21"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0mQ-1G-HZe">
+                                <rect key="frame" x="62" y="130" width="420" height="253"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <color key="backgroundColor" red="0.0" green="0.57441833939999998" blue="0.77121350359999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
+                                <state key="normal" title="Distribution Finance">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="dI2-u7-TxZ" kind="push" id="o9Q-nE-FKW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZK3-tN-uu1">
+                                <rect key="frame" x="62" y="421" width="420" height="253"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.57441833939999998" blue="0.77121350359999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
+                                <state key="normal" title="Equipment Finance">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="12f-j8-rLK" kind="push" id="RGU-2h-qxT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N1m-um-chN">
+                                <rect key="frame" x="540" y="421" width="420" height="253"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.57441833939999998" blue="0.77121350359999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
+                                <state key="normal" title="Corporate Finance">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="HdD-XR-zyV" kind="push" id="qrp-KU-XQn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rxo-dW-XpB">
+                                <rect key="frame" x="540" y="130" width="420" height="253"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.57441833939999998" blue="0.77121350359999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
+                                <state key="normal" title="Custom Fleet">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="v1Q-Hx-zob" kind="push" id="LUU-b6-vnM"/>
+                                </connections>
+                            </button>
+                            <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jyf-Mh-K3y">
+                                <rect key="frame" x="0.0" y="73" width="1024" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="PUC-Fy-cFk" id="5tw-yy-Ufy"/>
+                                </connections>
+                            </searchBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Business Connect" id="ZfW-Iv-zDM"/>
+                    <navigationItem key="navigationItem" title="Business Connect" id="sFd-RP-W9J"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="searchDisplayController" destination="L3R-4t-v23" id="QL1-Fa-Ead"/>
+                    </connections>
+                </viewController>
+                <searchDisplayController id="L3R-4t-v23">
+                    <connections>
+                        <outlet property="delegate" destination="PUC-Fy-cFk" id="a4y-bh-Hkz"/>
+                        <outlet property="searchBar" destination="jyf-Mh-K3y" id="ICg-vs-KO4"/>
+                        <outlet property="searchContentsController" destination="PUC-Fy-cFk" id="KZO-nU-Sng"/>
+                        <outlet property="searchResultsDataSource" destination="PUC-Fy-cFk" id="ZXl-ZF-iwB"/>
+                        <outlet property="searchResultsDelegate" destination="PUC-Fy-cFk" id="NY9-Yg-R2B"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+            <point key="canvasLocation" x="2093" y="272"/>
+        </scene>
+        <!--View Controller - Custom Fleet-->
+        <scene sceneID="BK6-H0-q6s">
+            <objects>
+                <viewController id="v1Q-Hx-zob" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uNd-Vg-xow"/>
+                        <viewControllerLayoutGuide type="bottom" id="qBM-37-9Rj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uT3-Vt-DJY">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Custom Fleet" id="KTv-Ct-vqM"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vTJ-SA-cPj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U6o-5D-QpG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="863" y="272"/>
+            <point key="canvasLocation" x="3400" y="272"/>
+        </scene>
+        <!--View Controller - Corporate Finance-->
+        <scene sceneID="hqd-w1-89G">
+            <objects>
+                <viewController id="HdD-XR-zyV" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rxr-di-Ezw"/>
+                        <viewControllerLayoutGuide type="bottom" id="gqb-Me-cNv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nq5-4T-5Fh">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Corporate Finance" id="eLz-BK-t8V"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FFR-oc-7CQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3400" y="1182"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="EER-PR-n5U">
             <objects>
                 <tabBarController definesPresentationContext="YES" id="GMy-5R-czZ" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="OaA-Nc-wki"/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="t14-fq-Rzq">
                         <rect key="frame" x="129" y="330" width="163" height="49"/>
@@ -84,7 +214,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="PUC-Fy-cFk" kind="relationship" relationship="viewControllers" id="yuv-NI-RcR"/>
+                        <segue destination="Vgy-FT-nB6" kind="relationship" relationship="viewControllers" id="yuv-NI-RcR"/>
                         <segue destination="7vv-Js-QDd" kind="relationship" relationship="viewControllers" id="IGb-Zp-EFD"/>
                     </connections>
                 </tabBarController>
@@ -120,6 +250,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nDU-Et-840" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="909" y="1438"/>
+        </scene>
+        <!--Navigation Controller - Business Connect-->
+        <scene sceneID="yKe-tL-hlF">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Vgy-FT-nB6" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Business Connect" id="ZfW-Iv-zDM"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Bx1-iK-5EN">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="PUC-Fy-cFk" kind="relationship" relationship="rootViewController" id="jTq-Ia-faS"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="33e-nq-AXw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="863" y="272"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

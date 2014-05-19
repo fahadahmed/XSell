@@ -23,6 +23,7 @@
 		EC0F242E1927021B00C19426 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC0F242C1927021B00C19426 /* InfoPlist.strings */; };
 		EC0F24301927021B00C19426 /* XSellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0F242F1927021B00C19426 /* XSellTests.m */; };
 		EC38756F192990FD001B28E5 /* XSell.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC38756E192990FD001B28E5 /* XSell.storyboard */; };
+		EC38757B19299C01001B28E5 /* XSBusinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC38757A19299C01001B28E5 /* XSBusinessViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		EC0F242D1927021B00C19426 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EC0F242F1927021B00C19426 /* XSellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSellTests.m; sourceTree = "<group>"; };
 		EC38756E192990FD001B28E5 /* XSell.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = XSell.storyboard; sourceTree = "<group>"; };
+		EC38757919299C01001B28E5 /* XSBusinessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSBusinessViewController.h; sourceTree = "<group>"; };
+		EC38757A19299C01001B28E5 /* XSBusinessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSBusinessViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 		EC0F240C1927021B00C19426 /* XSell */ = {
 			isa = PBXGroup;
 			children = (
+				EC38757919299C01001B28E5 /* XSBusinessViewController.h */,
+				EC38757A19299C01001B28E5 /* XSBusinessViewController.m */,
 				EC0F24151927021B00C19426 /* XSAppDelegate.h */,
 				EC0F24161927021B00C19426 /* XSAppDelegate.m */,
 			);
@@ -273,6 +278,7 @@
 				EC0F24131927021B00C19426 /* main.m in Sources */,
 				EC0F24171927021B00C19426 /* XSAppDelegate.m in Sources */,
 				EC0F241A1927021B00C19426 /* XSell.xcdatamodeld in Sources */,
+				EC38757B19299C01001B28E5 /* XSBusinessViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
