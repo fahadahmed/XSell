@@ -68,6 +68,9 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="G0L-9P-BvJ" kind="push" id="Rrn-fA-VYH"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Nm-JI-UAU">
                                 <rect key="frame" x="20" y="152" width="500" height="532"/>
@@ -153,6 +156,107 @@
             </objects>
             <point key="canvasLocation" x="4109" y="-1929"/>
         </scene>
+        <!--Testimonial View Controller - Testimonials - Equipment Finance-->
+        <scene sceneID="ydv-YD-NOF">
+            <objects>
+                <viewController id="G0L-9P-BvJ" customClass="XSEFTestimonialViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="98q-qT-qRu"/>
+                        <viewControllerLayoutGuide type="bottom" id="vre-MA-uOk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2gz-68-LRp">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Videos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gvg-ix-bO1">
+                                <rect key="frame" x="135" y="145" width="200" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBlack" family="Helvetica Neue" pointSize="45"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Documents" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Px1-Bl-wY2">
+                                <rect key="frame" x="627" y="145" width="258" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBlack" family="Helvetica Neue" pointSize="45"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mRm-0E-Dbc">
+                                <rect key="frame" x="646" y="246" width="220" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.57441833939999998" blue="0.77121350359999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Testimonial Document">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8aj-1J-zIG">
+                                <rect key="frame" x="135" y="246" width="220" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.57441833939999998" blue="0.77121350359999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Testimonial Video">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="videoOne:" destination="G0L-9P-BvJ" eventType="touchUpInside" id="ML0-AA-FgE"/>
+                                    <segue destination="Rka-dt-Lgv" kind="modal" identifier="showEFVideoOne" id="Pgi-7F-rsR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n2C-yU-OU3">
+                                <rect key="frame" x="135" y="327" width="220" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.57441833939999998" blue="0.77121350359999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Testimonial Video">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="videoTwo:" destination="G0L-9P-BvJ" eventType="touchUpInside" id="dR7-PT-Ygh"/>
+                                    <segue destination="Rka-dt-Lgv" kind="modal" identifier="showEFVideoTwo" id="xgT-yZ-RVB"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Testimonials - Equipment Finance" id="ffK-yt-vqu"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dsQ-a5-LQn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5313" y="-2807"/>
+        </scene>
+        <!--Video View Controller - Testimonial Video - Equipment Finance-->
+        <scene sceneID="m5O-4E-jzK">
+            <objects>
+                <viewController id="iYp-SY-0Ck" customClass="XSVideoViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tuw-qz-4zr"/>
+                        <viewControllerLayoutGuide type="bottom" id="9qJ-WH-oH4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bpP-Nz-Ft9">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZAX-em-MAp">
+                                <rect key="frame" x="0.0" y="62" width="1024" height="655"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Testimonial Video - Equipment Finance" id="ulY-hN-2vJ"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="videoView" destination="ZAX-em-MAp" id="aTa-hB-glL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r5r-lI-0Nx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6531" y="-3838"/>
+        </scene>
         <!--Shortcut Search View Controller - Search Results-->
         <scene sceneID="Yd0-5v-3vI">
             <objects>
@@ -202,7 +306,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="70k-mB-3bo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6705" y="-2596"/>
+            <point key="canvasLocation" x="4119" y="-3755"/>
         </scene>
         <!--Business View Controller - Business Connect-->
         <scene sceneID="btZ-5H-R9m">
@@ -662,6 +766,24 @@
             </objects>
             <point key="canvasLocation" x="1319" y="-1264"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="GUw-qn-Jbd">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Rka-dt-Lgv" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="C9t-Ew-pYg">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="iYp-SY-0Ck" kind="relationship" relationship="rootViewController" id="lug-cb-oLf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JkX-I4-uYm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5301" y="-3838"/>
+        </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar" statusBarStyle="lightContent"/>
@@ -669,9 +791,10 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="LVH-Cd-2cb"/>
         <segue reference="Qve-p8-NAm"/>
+        <segue reference="LVH-Cd-2cb"/>
         <segue reference="LPt-MX-jOZ"/>
         <segue reference="Ehi-eu-T25"/>
+        <segue reference="xgT-yZ-RVB"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -60,6 +60,8 @@
 		EC3875E21929DE65001B28E5 /* ThumbsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3875CD1929DE65001B28E5 /* ThumbsViewController.m */; };
 		EC3875E31929DE65001B28E5 /* UIXToolbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3875CF1929DE65001B28E5 /* UIXToolbarView.m */; };
 		EC3875E61929F37C001B28E5 /* XSShortcutSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3875E51929F37C001B28E5 /* XSShortcutSearchViewController.m */; };
+		EC3875E9192A0D66001B28E5 /* XSEFTestimonialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3875E8192A0D66001B28E5 /* XSEFTestimonialViewController.m */; };
+		EC3875EC192A0EEB001B28E5 /* XSVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3875EB192A0EEB001B28E5 /* XSVideoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -160,6 +162,10 @@
 		EC3875CF1929DE65001B28E5 /* UIXToolbarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIXToolbarView.m; sourceTree = "<group>"; };
 		EC3875E41929F37C001B28E5 /* XSShortcutSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSShortcutSearchViewController.h; sourceTree = "<group>"; };
 		EC3875E51929F37C001B28E5 /* XSShortcutSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSShortcutSearchViewController.m; sourceTree = "<group>"; };
+		EC3875E7192A0D66001B28E5 /* XSEFTestimonialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSEFTestimonialViewController.h; sourceTree = "<group>"; };
+		EC3875E8192A0D66001B28E5 /* XSEFTestimonialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSEFTestimonialViewController.m; sourceTree = "<group>"; };
+		EC3875EA192A0EEB001B28E5 /* XSVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSVideoViewController.h; sourceTree = "<group>"; };
+		EC3875EB192A0EEB001B28E5 /* XSVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSVideoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -252,6 +258,10 @@
 				EC38758D1929C724001B28E5 /* XSEFViewController.m */,
 				EC3875E41929F37C001B28E5 /* XSShortcutSearchViewController.h */,
 				EC3875E51929F37C001B28E5 /* XSShortcutSearchViewController.m */,
+				EC3875E7192A0D66001B28E5 /* XSEFTestimonialViewController.h */,
+				EC3875E8192A0D66001B28E5 /* XSEFTestimonialViewController.m */,
+				EC3875EA192A0EEB001B28E5 /* XSVideoViewController.h */,
+				EC3875EB192A0EEB001B28E5 /* XSVideoViewController.m */,
 			);
 			path = XSell;
 			sourceTree = "<group>";
@@ -472,6 +482,7 @@
 				EC3875D91929DE65001B28E5 /* ReaderThumbCache.m in Sources */,
 				EC0F24131927021B00C19426 /* main.m in Sources */,
 				EC3875841929B4ED001B28E5 /* XSSearchViewController.m in Sources */,
+				EC3875EC192A0EEB001B28E5 /* XSVideoViewController.m in Sources */,
 				EC3875E61929F37C001B28E5 /* XSShortcutSearchViewController.m in Sources */,
 				EC3875D71929DE65001B28E5 /* ReaderMainPagebar.m in Sources */,
 				EC38758E1929C724001B28E5 /* XSEFViewController.m in Sources */,
@@ -496,6 +507,7 @@
 				EC38757E1929B4BA001B28E5 /* XSHomeViewController.m in Sources */,
 				EC3875DB1929DE65001B28E5 /* ReaderThumbQueue.m in Sources */,
 				EC3875DC1929DE65001B28E5 /* ReaderThumbRender.m in Sources */,
+				EC3875E9192A0D66001B28E5 /* XSEFTestimonialViewController.m in Sources */,
 				EC3875A51929DE43001B28E5 /* ReaderBookDelegate.m in Sources */,
 				EC3875E21929DE65001B28E5 /* ThumbsViewController.m in Sources */,
 				EC3875871929B50F001B28E5 /* XSReferenceViewController.m in Sources */,
