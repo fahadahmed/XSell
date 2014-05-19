@@ -7,6 +7,7 @@
 //
 
 #import "XSBusinessViewController.h"
+#import "XSShortcutSearchViewController.h"
 
 @interface XSBusinessViewController ()
 
@@ -36,4 +37,18 @@
 }
 
 
+- (IBAction)searchResults:(id)sender {
+   
+    UIStoryboardSegue *segue = [[UIStoryboardSegue alloc] init];
+    [self prepareForSegue:segue sender:sender];
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.identifier isEqualToString:@"showSearchResults"]) {
+        
+        XSShortcutSearchViewController *destViewController = segue.destinationViewController;
+        destViewController.searchCriteria = _searchText.text;
+        NSLog(@"%@", destViewController.searchCriteria);
+    }
+}
 @end

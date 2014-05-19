@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ReaderViewController.h"
 
-@interface XSEFViewController : UIViewController
+@interface XSEFViewController : UIViewController <ReaderViewControllerDelegate>
 @property (nonatomic, strong) NSArray *products;
 @property (nonatomic, strong) NSString *businessDescription;
 

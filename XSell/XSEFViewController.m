@@ -51,8 +51,23 @@
 }*/
 
 - (void)showBrochure:(id)sender {
+    NSString *file = [[NSBundle mainBundle] pathForResource:@"Developers" ofType:@"pdf"];
     
+    ReaderDocument *document = [ReaderDocument withDocumentFilePath:file password:nil];
+    if (document !=nil) {
+        ReaderViewController *readerViewController = [[ReaderViewController alloc] initWithReaderDocument:document];
+        readerViewController.delegate = self;
+        readerViewController.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+        readerViewController.modalPresentationStyle = UIModalPresentationFullScreen;
+        [self presentModalViewController:readerViewController animated:YES];
+    }
 }
+
+- (void)dismissReaderViewController:(ReaderViewController *)viewController {
+    [self dismissModalViewControllerAnimated:YES];
+}
+
+
 /*
 #pragma mark -
 #pragma mark YLPDFViewControllerDelegate Methods

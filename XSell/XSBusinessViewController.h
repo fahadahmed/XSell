@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface XSBusinessViewController : UIViewController <UISearchBarDelegate>
+@property (strong, nonatomic) IBOutlet UITextField *searchText;
+@property (strong, nonatomic) NSString *textSearch;
+- (IBAction)searchResults:(id)sender;
+
 
 @end
