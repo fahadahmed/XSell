@@ -13,5 +13,8 @@
 - (IBAction)showAccessGE:(id)sender;
 - (IBAction)showMidMarket:(id)sender;
 
+- (IBAction)showLinkAccessGE:(id)sender;
+- (IBAction)showLinkMidMarket:(id)sender;
+
 - (IBAction)createCBLSForm:(id)sender;
 @end

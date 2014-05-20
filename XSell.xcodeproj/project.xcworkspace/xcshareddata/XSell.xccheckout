@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>866A91AC-7E97-40F2-BB3B-FF1BFA6027D0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>XSell</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F1983AE9-0798-444C-B9D5-B2628781F35A</key>
+		<string>https://github.com/fahadahmed/XSell.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>XSell.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F1983AE9-0798-444C-B9D5-B2628781F35A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/fahadahmed/XSell.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F1983AE9-0798-444C-B9D5-B2628781F35A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F1983AE9-0798-444C-B9D5-B2628781F35A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>XSell</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,18 +1,18 @@
 //
-//  XSReferenceViewController.m
+//  XSEFContactViewController.m
 //  XSell
 //
-//  Created by Fahad Ahmed on 19/05/2014.
+//  Created by Fahad Ahmed on 20/05/2014.
 //  Copyright (c) 2014 GE Capital ANZ. All rights reserved.
 //
 
-#import "XSReferenceViewController.h"
+#import "XSEFContactViewController.h"
 
-@interface XSReferenceViewController ()
+@interface XSEFContactViewController ()
 
 @end
 
-@implementation XSReferenceViewController
+@implementation XSEFContactViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -34,7 +34,5 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-
 
 @end

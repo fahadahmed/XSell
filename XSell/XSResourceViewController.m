@@ -7,6 +7,7 @@
 //
 
 #import "XSResourceViewController.h"
+#import "XSWebViewController.h"
 
 @interface XSResourceViewController ()
 
@@ -64,5 +65,30 @@
     [self dismissModalViewControllerAnimated:YES];
 }
 
+- (IBAction)showLinkAccessGE:(id)sender {
+    [self performSegueWithIdentifier:@"showAccessGELink" sender:self];
+}
+
+- (IBAction)showLinkMidMarket:(id)sender {
+    [self performSegueWithIdentifier:@"showMidMarketLink" sender:self];
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.identifier isEqualToString:@"showAccessGELink"]) {
+        
+        UINavigationController *navController = (UINavigationController *)[segue destinationViewController];
+        XSWebViewController *webView = (XSWebViewController *)[[navController viewControllers] lastObject];
+        webView.urlLink = @"http://www.access.gecapital.com";
+        
+        
+       
+    }
+    if ([segue.identifier isEqualToString:@"showMidMarketLink"]) {
+        
+        UINavigationController *navController = (UINavigationController *)[segue destinationViewController];
+        XSWebViewController *webView = (XSWebViewController *)[[navController viewControllers] lastObject];
+        webView.urlLink = @"http://www.google.com.au";
+    }
+}
 
 @end

@@ -118,6 +118,15 @@
 		EC49004F192B3F2200004356 /* distribution-finance-500x532.png in Resources */ = {isa = PBXBuildFile; fileRef = EC49004B192B3F2200004356 /* distribution-finance-500x532.png */; };
 		EC490050192B3F2200004356 /* equipment-finance-500x532.png in Resources */ = {isa = PBXBuildFile; fileRef = EC49004C192B3F2200004356 /* equipment-finance-500x532.png */; };
 		EC490051192B3F2200004356 /* fleet-solutions-500x532.png in Resources */ = {isa = PBXBuildFile; fileRef = EC49004D192B3F2200004356 /* fleet-solutions-500x532.png */; };
+		EC490053192B413200004356 /* Cbls_Background.png in Resources */ = {isa = PBXBuildFile; fileRef = EC490052192B413200004356 /* Cbls_Background.png */; };
+		EC490056192B42DD00004356 /* XSWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC490055192B42DD00004356 /* XSWebViewController.m */; };
+		EC49005A192B4D6D00004356 /* KnowledgeBase.png in Resources */ = {isa = PBXBuildFile; fileRef = EC490057192B4D6D00004356 /* KnowledgeBase.png */; };
+		EC49005B192B4D6D00004356 /* Linkedin.png in Resources */ = {isa = PBXBuildFile; fileRef = EC490058192B4D6D00004356 /* Linkedin.png */; };
+		EC49005C192B4D6D00004356 /* Personal Dashboard.png in Resources */ = {isa = PBXBuildFile; fileRef = EC490059192B4D6D00004356 /* Personal Dashboard.png */; };
+		EC49005F192B50A100004356 /* XSEFContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC49005E192B50A100004356 /* XSEFContactViewController.m */; };
+		EC490063192B51D000004356 /* Business01.png in Resources */ = {isa = PBXBuildFile; fileRef = EC490060192B51D000004356 /* Business01.png */; };
+		EC490064192B51D000004356 /* Business02.png in Resources */ = {isa = PBXBuildFile; fileRef = EC490061192B51D000004356 /* Business02.png */; };
+		EC490065192B51D000004356 /* Business03.png in Resources */ = {isa = PBXBuildFile; fileRef = EC490062192B51D000004356 /* Business03.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -288,6 +297,17 @@
 		EC49004B192B3F2200004356 /* distribution-finance-500x532.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "distribution-finance-500x532.png"; sourceTree = "<group>"; };
 		EC49004C192B3F2200004356 /* equipment-finance-500x532.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "equipment-finance-500x532.png"; sourceTree = "<group>"; };
 		EC49004D192B3F2200004356 /* fleet-solutions-500x532.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fleet-solutions-500x532.png"; sourceTree = "<group>"; };
+		EC490052192B413200004356 /* Cbls_Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cbls_Background.png; sourceTree = "<group>"; };
+		EC490054192B42DD00004356 /* XSWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSWebViewController.h; sourceTree = "<group>"; };
+		EC490055192B42DD00004356 /* XSWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSWebViewController.m; sourceTree = "<group>"; };
+		EC490057192B4D6D00004356 /* KnowledgeBase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KnowledgeBase.png; sourceTree = "<group>"; };
+		EC490058192B4D6D00004356 /* Linkedin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Linkedin.png; sourceTree = "<group>"; };
+		EC490059192B4D6D00004356 /* Personal Dashboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Personal Dashboard.png"; sourceTree = "<group>"; };
+		EC49005D192B50A100004356 /* XSEFContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSEFContactViewController.h; sourceTree = "<group>"; };
+		EC49005E192B50A100004356 /* XSEFContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSEFContactViewController.m; sourceTree = "<group>"; };
+		EC490060192B51D000004356 /* Business01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Business01.png; sourceTree = "<group>"; };
+		EC490061192B51D000004356 /* Business02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Business02.png; sourceTree = "<group>"; };
+		EC490062192B51D000004356 /* Business03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Business03.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -404,6 +424,10 @@
 				EC387656192B1C70001B28E5 /* XSResourceViewController.m */,
 				EC38765C192B26A5001B28E5 /* XSCBLSFormViewController.h */,
 				EC38765D192B26A5001B28E5 /* XSCBLSFormViewController.m */,
+				EC490054192B42DD00004356 /* XSWebViewController.h */,
+				EC490055192B42DD00004356 /* XSWebViewController.m */,
+				EC49005D192B50A100004356 /* XSEFContactViewController.h */,
+				EC49005E192B50A100004356 /* XSEFContactViewController.m */,
 			);
 			path = XSell;
 			sourceTree = "<group>";
@@ -508,6 +532,9 @@
 		EC60682819298D7E00176DF8 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				EC490057192B4D6D00004356 /* KnowledgeBase.png */,
+				EC490058192B4D6D00004356 /* Linkedin.png */,
+				EC490059192B4D6D00004356 /* Personal Dashboard.png */,
 				EC387658192B1FBA001B28E5 /* app-icon.png */,
 				EC387659192B1FBB001B28E5 /* app-icon@2x.png */,
 				EC387649192B145D001B28E5 /* Access GE.png */,
@@ -525,11 +552,15 @@
 				EC387643192B0F37001B28E5 /* fleet-solutions-512x285.gif */,
 				EC490040192B3C9100004356 /* banner-1024x87.png */,
 				EC490042192B3D4C00004356 /* corporate-finance-512x285.png */,
+				EC490060192B51D000004356 /* Business01.png */,
+				EC490061192B51D000004356 /* Business02.png */,
+				EC490062192B51D000004356 /* Business03.png */,
 				EC490043192B3D4C00004356 /* distribution-finance-512x285.png */,
 				EC490044192B3D4C00004356 /* equipment-finance-512x285.png */,
 				EC490045192B3D4C00004356 /* fleet-solutions-512x285.png */,
 				EC387644192B0F37001B28E5 /* supply-chain-finance-512x285.gif */,
 				EC38763B192B083C001B28E5 /* fleet-500x532.png */,
+				EC490052192B413200004356 /* Cbls_Background.png */,
 				EC38763C192B083C001B28E5 /* supply-chain-finance-500x532.png */,
 				EC38761E192AEA45001B28E5 /* CF.jpg */,
 				EC38761F192AEA45001B28E5 /* CorpF.jpg */,
@@ -649,6 +680,7 @@
 				EC38759C1929C9FD001B28E5 /* Developers.pdf in Resources */,
 				EC387601192AD594001B28E5 /* business-connect-module-64x64.png in Resources */,
 				EC387647192B0F37001B28E5 /* fleet-solutions-512x285.gif in Resources */,
+				EC490064192B51D000004356 /* Business02.png in Resources */,
 				EC38765A192B1FBB001B28E5 /* app-icon.png in Resources */,
 				EC387600192AD594001B28E5 /* business-connect-module-32x32.png in Resources */,
 				EC38762E192AEFE0001B28E5 /* brochure_DF.pdf in Resources */,
@@ -657,6 +689,7 @@
 				EC49004E192B3F2200004356 /* corporate-finance-500x532.png in Resources */,
 				EC387650192B1917001B28E5 /* cityscape.png in Resources */,
 				EC387613192AE30B001B28E5 /* EF.png in Resources */,
+				EC490065192B51D000004356 /* Business03.png in Resources */,
 				EC38763F192B083C001B28E5 /* fleet-500x532.png in Resources */,
 				EC387648192B0F37001B28E5 /* supply-chain-finance-512x285.gif in Resources */,
 				EC38764C192B145D001B28E5 /* Access GE.png in Resources */,
@@ -666,12 +699,15 @@
 				EC387612192AE30B001B28E5 /* DF.png in Resources */,
 				EC387640192B083C001B28E5 /* supply-chain-finance-500x532.png in Resources */,
 				EC38756F192990FD001B28E5 /* XSell.storyboard in Resources */,
+				EC490053192B413200004356 /* Cbls_Background.png in Resources */,
 				EC38763D192B083C001B28E5 /* corporate-and-business-lendingt-500x532.png in Resources */,
 				EC387605192AD594001B28E5 /* business-connect-sitemap-64x64.png in Resources */,
 				EC387622192AEA45001B28E5 /* CF.jpg in Resources */,
 				EC38762C192AEFE0001B28E5 /* brochure_CF_Aviation.pdf in Resources */,
 				EC0F24111927021B00C19426 /* InfoPlist.strings in Resources */,
 				EC387602192AD594001B28E5 /* business-connect-polygon-32x32.png in Resources */,
+				EC49005B192B4D6D00004356 /* Linkedin.png in Resources */,
+				EC49005A192B4D6D00004356 /* KnowledgeBase.png in Resources */,
 				EC387603192AD594001B28E5 /* business-connect-polygon-64x64.png in Resources */,
 				EC387646192B0F37001B28E5 /* equipment-and-aviation-finance-512x285.gif in Resources */,
 				EC3875FE192AD594001B28E5 /* business-connect-link-32x32.png in Resources */,
@@ -682,6 +718,7 @@
 				EC38764D192B145D001B28E5 /* CBLS.png in Resources */,
 				EC38763E192B083C001B28E5 /* equipment-and-aviation-finance-500x532.png in Resources */,
 				EC490041192B3C9100004356 /* banner-1024x87.png in Resources */,
+				EC490063192B51D000004356 /* Business01.png in Resources */,
 				EC490049192B3D4C00004356 /* fleet-solutions-512x285.png in Resources */,
 				EC490048192B3D4C00004356 /* equipment-finance-512x285.png in Resources */,
 				EC3875FF192AD594001B28E5 /* business-connect-link-64x64.png in Resources */,
@@ -692,6 +729,7 @@
 				EC387625192AEA45001B28E5 /* EF.jpg in Resources */,
 				EC38765B192B1FBB001B28E5 /* app-icon@2x.png in Resources */,
 				EC490050192B3F2200004356 /* equipment-finance-500x532.png in Resources */,
+				EC49005C192B4D6D00004356 /* Personal Dashboard.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -714,6 +752,7 @@
 				EC3875E11929DE65001B28E5 /* ThumbsMainToolbar.m in Sources */,
 				EC38765E192B26A5001B28E5 /* XSCBLSFormViewController.m in Sources */,
 				EC3875D01929DE65001B28E5 /* CGPDFDocument.m in Sources */,
+				EC490056192B42DD00004356 /* XSWebViewController.m in Sources */,
 				EC3875EF192ABDF7001B28E5 /* XSDFTestimonialViewController.m in Sources */,
 				EC38760B192ADC81001B28E5 /* XSEFProductViewController.m in Sources */,
 				EC3875D91929DE65001B28E5 /* ReaderThumbCache.m in Sources */,
@@ -755,6 +794,7 @@
 				EC3875F2192ABE14001B28E5 /* XSFSTestimonialViewController.m in Sources */,
 				EC3875E21929DE65001B28E5 /* ThumbsViewController.m in Sources */,
 				EC3875871929B50F001B28E5 /* XSReferenceViewController.m in Sources */,
+				EC49005F192B50A100004356 /* XSEFContactViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

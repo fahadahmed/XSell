@@ -1,18 +1,19 @@
 //
-//  XSReferenceViewController.m
+//  XSWebViewController.m
 //  XSell
 //
-//  Created by Fahad Ahmed on 19/05/2014.
+//  Created by Fahad Ahmed on 20/05/2014.
 //  Copyright (c) 2014 GE Capital ANZ. All rights reserved.
 //
 
-#import "XSReferenceViewController.h"
+#import "XSWebViewController.h"
 
-@interface XSReferenceViewController ()
+@interface XSWebViewController ()
 
 @end
 
-@implementation XSReferenceViewController
+@implementation XSWebViewController
+@synthesize urlLink, viewWeb;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -27,6 +28,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    NSURL *urlWeb = [NSURL URLWithString:urlLink];
+    NSURLRequest *requestObj = [NSURLRequest requestWithURL:urlWeb];
+    [viewWeb loadRequest:requestObj];
 }
 
 - (void)didReceiveMemoryWarning
@@ -35,6 +39,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-
-
+- (IBAction)switchback:(id)sender {
+    [self dismissModalViewControllerAnimated:YES];
+}
 @end
