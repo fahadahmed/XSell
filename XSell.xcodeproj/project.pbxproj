@@ -62,6 +62,25 @@
 		EC3875E61929F37C001B28E5 /* XSShortcutSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3875E51929F37C001B28E5 /* XSShortcutSearchViewController.m */; };
 		EC3875E9192A0D66001B28E5 /* XSEFTestimonialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3875E8192A0D66001B28E5 /* XSEFTestimonialViewController.m */; };
 		EC3875EC192A0EEB001B28E5 /* XSVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3875EB192A0EEB001B28E5 /* XSVideoViewController.m */; };
+		EC3875EF192ABDF7001B28E5 /* XSDFTestimonialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3875EE192ABDF7001B28E5 /* XSDFTestimonialViewController.m */; };
+		EC3875F2192ABE14001B28E5 /* XSFSTestimonialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3875F1192ABE14001B28E5 /* XSFSTestimonialViewController.m */; };
+		EC3875F5192ABE33001B28E5 /* XSCFTestimonialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3875F4192ABE33001B28E5 /* XSCFTestimonialViewController.m */; };
+		EC3875FE192AD594001B28E5 /* business-connect-link-32x32.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3875F6192AD594001B28E5 /* business-connect-link-32x32.png */; };
+		EC3875FF192AD594001B28E5 /* business-connect-link-64x64.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3875F7192AD594001B28E5 /* business-connect-link-64x64.png */; };
+		EC387600192AD594001B28E5 /* business-connect-module-32x32.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3875F8192AD594001B28E5 /* business-connect-module-32x32.png */; };
+		EC387601192AD594001B28E5 /* business-connect-module-64x64.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3875F9192AD594001B28E5 /* business-connect-module-64x64.png */; };
+		EC387602192AD594001B28E5 /* business-connect-polygon-32x32.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3875FA192AD594001B28E5 /* business-connect-polygon-32x32.png */; };
+		EC387603192AD594001B28E5 /* business-connect-polygon-64x64.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3875FB192AD594001B28E5 /* business-connect-polygon-64x64.png */; };
+		EC387604192AD594001B28E5 /* business-connect-sitemap-32x32.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3875FC192AD594001B28E5 /* business-connect-sitemap-32x32.png */; };
+		EC387605192AD594001B28E5 /* business-connect-sitemap-64x64.png in Resources */ = {isa = PBXBuildFile; fileRef = EC3875FD192AD594001B28E5 /* business-connect-sitemap-64x64.png */; };
+		EC387608192ADC53001B28E5 /* XSEFQuestionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC387607192ADC53001B28E5 /* XSEFQuestionsViewController.m */; };
+		EC38760B192ADC81001B28E5 /* XSEFProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC38760A192ADC81001B28E5 /* XSEFProductViewController.m */; };
+		EC387610192AE30B001B28E5 /* CF.png in Resources */ = {isa = PBXBuildFile; fileRef = EC38760C192AE30B001B28E5 /* CF.png */; };
+		EC387611192AE30B001B28E5 /* CorpF.png in Resources */ = {isa = PBXBuildFile; fileRef = EC38760D192AE30B001B28E5 /* CorpF.png */; };
+		EC387612192AE30B001B28E5 /* DF.png in Resources */ = {isa = PBXBuildFile; fileRef = EC38760E192AE30B001B28E5 /* DF.png */; };
+		EC387613192AE30B001B28E5 /* EF.png in Resources */ = {isa = PBXBuildFile; fileRef = EC38760F192AE30B001B28E5 /* EF.png */; };
+		EC387615192AE440001B28E5 /* cityscape.gif in Resources */ = {isa = PBXBuildFile; fileRef = EC387614192AE440001B28E5 /* cityscape.gif */; };
+		EC387617192AE4BD001B28E5 /* cityscape.png in Resources */ = {isa = PBXBuildFile; fileRef = EC387616192AE4BD001B28E5 /* cityscape.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -166,6 +185,30 @@
 		EC3875E8192A0D66001B28E5 /* XSEFTestimonialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSEFTestimonialViewController.m; sourceTree = "<group>"; };
 		EC3875EA192A0EEB001B28E5 /* XSVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSVideoViewController.h; sourceTree = "<group>"; };
 		EC3875EB192A0EEB001B28E5 /* XSVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSVideoViewController.m; sourceTree = "<group>"; };
+		EC3875ED192ABDF7001B28E5 /* XSDFTestimonialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSDFTestimonialViewController.h; sourceTree = "<group>"; };
+		EC3875EE192ABDF7001B28E5 /* XSDFTestimonialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSDFTestimonialViewController.m; sourceTree = "<group>"; };
+		EC3875F0192ABE14001B28E5 /* XSFSTestimonialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSFSTestimonialViewController.h; sourceTree = "<group>"; };
+		EC3875F1192ABE14001B28E5 /* XSFSTestimonialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSFSTestimonialViewController.m; sourceTree = "<group>"; };
+		EC3875F3192ABE33001B28E5 /* XSCFTestimonialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSCFTestimonialViewController.h; sourceTree = "<group>"; };
+		EC3875F4192ABE33001B28E5 /* XSCFTestimonialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSCFTestimonialViewController.m; sourceTree = "<group>"; };
+		EC3875F6192AD594001B28E5 /* business-connect-link-32x32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "business-connect-link-32x32.png"; sourceTree = "<group>"; };
+		EC3875F7192AD594001B28E5 /* business-connect-link-64x64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "business-connect-link-64x64.png"; sourceTree = "<group>"; };
+		EC3875F8192AD594001B28E5 /* business-connect-module-32x32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "business-connect-module-32x32.png"; sourceTree = "<group>"; };
+		EC3875F9192AD594001B28E5 /* business-connect-module-64x64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "business-connect-module-64x64.png"; sourceTree = "<group>"; };
+		EC3875FA192AD594001B28E5 /* business-connect-polygon-32x32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "business-connect-polygon-32x32.png"; sourceTree = "<group>"; };
+		EC3875FB192AD594001B28E5 /* business-connect-polygon-64x64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "business-connect-polygon-64x64.png"; sourceTree = "<group>"; };
+		EC3875FC192AD594001B28E5 /* business-connect-sitemap-32x32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "business-connect-sitemap-32x32.png"; sourceTree = "<group>"; };
+		EC3875FD192AD594001B28E5 /* business-connect-sitemap-64x64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "business-connect-sitemap-64x64.png"; sourceTree = "<group>"; };
+		EC387606192ADC53001B28E5 /* XSEFQuestionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSEFQuestionsViewController.h; sourceTree = "<group>"; };
+		EC387607192ADC53001B28E5 /* XSEFQuestionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSEFQuestionsViewController.m; sourceTree = "<group>"; };
+		EC387609192ADC81001B28E5 /* XSEFProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSEFProductViewController.h; sourceTree = "<group>"; };
+		EC38760A192ADC81001B28E5 /* XSEFProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSEFProductViewController.m; sourceTree = "<group>"; };
+		EC38760C192AE30B001B28E5 /* CF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CF.png; sourceTree = "<group>"; };
+		EC38760D192AE30B001B28E5 /* CorpF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CorpF.png; sourceTree = "<group>"; };
+		EC38760E192AE30B001B28E5 /* DF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DF.png; sourceTree = "<group>"; };
+		EC38760F192AE30B001B28E5 /* EF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EF.png; sourceTree = "<group>"; };
+		EC387614192AE440001B28E5 /* cityscape.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cityscape.gif; sourceTree = "<group>"; };
+		EC387616192AE4BD001B28E5 /* cityscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cityscape.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -256,10 +299,20 @@
 				EC3875831929B4ED001B28E5 /* XSSearchViewController.m */,
 				EC38758C1929C724001B28E5 /* XSEFViewController.h */,
 				EC38758D1929C724001B28E5 /* XSEFViewController.m */,
+				EC387606192ADC53001B28E5 /* XSEFQuestionsViewController.h */,
+				EC387607192ADC53001B28E5 /* XSEFQuestionsViewController.m */,
+				EC387609192ADC81001B28E5 /* XSEFProductViewController.h */,
+				EC38760A192ADC81001B28E5 /* XSEFProductViewController.m */,
 				EC3875E41929F37C001B28E5 /* XSShortcutSearchViewController.h */,
 				EC3875E51929F37C001B28E5 /* XSShortcutSearchViewController.m */,
 				EC3875E7192A0D66001B28E5 /* XSEFTestimonialViewController.h */,
 				EC3875E8192A0D66001B28E5 /* XSEFTestimonialViewController.m */,
+				EC3875ED192ABDF7001B28E5 /* XSDFTestimonialViewController.h */,
+				EC3875EE192ABDF7001B28E5 /* XSDFTestimonialViewController.m */,
+				EC3875F0192ABE14001B28E5 /* XSFSTestimonialViewController.h */,
+				EC3875F1192ABE14001B28E5 /* XSFSTestimonialViewController.m */,
+				EC3875F3192ABE33001B28E5 /* XSCFTestimonialViewController.h */,
+				EC3875F4192ABE33001B28E5 /* XSCFTestimonialViewController.m */,
 				EC3875EA192A0EEB001B28E5 /* XSVideoViewController.h */,
 				EC3875EB192A0EEB001B28E5 /* XSVideoViewController.m */,
 			);
@@ -269,6 +322,7 @@
 		EC0F240D1927021B00C19426 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EC387618192AE58C001B28E5 /* Videos */,
 				EC3875A71929DE5B001B28E5 /* Sources */,
 				EC38759D1929DE32001B28E5 /* Classes */,
 				EC60682919298D8A00176DF8 /* Documents */,
@@ -363,9 +417,30 @@
 			name = Sources;
 			sourceTree = "<group>";
 		};
+		EC387618192AE58C001B28E5 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Videos;
+			sourceTree = "<group>";
+		};
 		EC60682819298D7E00176DF8 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				EC387616192AE4BD001B28E5 /* cityscape.png */,
+				EC387614192AE440001B28E5 /* cityscape.gif */,
+				EC38760C192AE30B001B28E5 /* CF.png */,
+				EC38760D192AE30B001B28E5 /* CorpF.png */,
+				EC38760E192AE30B001B28E5 /* DF.png */,
+				EC38760F192AE30B001B28E5 /* EF.png */,
+				EC3875F6192AD594001B28E5 /* business-connect-link-32x32.png */,
+				EC3875F7192AD594001B28E5 /* business-connect-link-64x64.png */,
+				EC3875F8192AD594001B28E5 /* business-connect-module-32x32.png */,
+				EC3875F9192AD594001B28E5 /* business-connect-module-64x64.png */,
+				EC3875FA192AD594001B28E5 /* business-connect-polygon-32x32.png */,
+				EC3875FB192AD594001B28E5 /* business-connect-polygon-64x64.png */,
+				EC3875FC192AD594001B28E5 /* business-connect-sitemap-32x32.png */,
+				EC3875FD192AD594001B28E5 /* business-connect-sitemap-64x64.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -454,10 +529,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC387610192AE30B001B28E5 /* CF.png in Resources */,
 				EC38759C1929C9FD001B28E5 /* Developers.pdf in Resources */,
+				EC387601192AD594001B28E5 /* business-connect-module-64x64.png in Resources */,
+				EC387600192AD594001B28E5 /* business-connect-module-32x32.png in Resources */,
+				EC387613192AE30B001B28E5 /* EF.png in Resources */,
+				EC387604192AD594001B28E5 /* business-connect-sitemap-32x32.png in Resources */,
+				EC387612192AE30B001B28E5 /* DF.png in Resources */,
+				EC387615192AE440001B28E5 /* cityscape.gif in Resources */,
 				EC38756F192990FD001B28E5 /* XSell.storyboard in Resources */,
+				EC387605192AD594001B28E5 /* business-connect-sitemap-64x64.png in Resources */,
 				EC0F24111927021B00C19426 /* InfoPlist.strings in Resources */,
+				EC387602192AD594001B28E5 /* business-connect-polygon-32x32.png in Resources */,
+				EC387603192AD594001B28E5 /* business-connect-polygon-64x64.png in Resources */,
+				EC387617192AE4BD001B28E5 /* cityscape.png in Resources */,
+				EC3875FE192AD594001B28E5 /* business-connect-link-32x32.png in Resources */,
 				EC0F241C1927021B00C19426 /* Images.xcassets in Resources */,
+				EC387611192AE30B001B28E5 /* CorpF.png in Resources */,
+				EC3875FF192AD594001B28E5 /* business-connect-link-64x64.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,6 +568,8 @@
 				EC3875D11929DE65001B28E5 /* ReaderConstants.m in Sources */,
 				EC3875E11929DE65001B28E5 /* ThumbsMainToolbar.m in Sources */,
 				EC3875D01929DE65001B28E5 /* CGPDFDocument.m in Sources */,
+				EC3875EF192ABDF7001B28E5 /* XSDFTestimonialViewController.m in Sources */,
+				EC38760B192ADC81001B28E5 /* XSEFProductViewController.m in Sources */,
 				EC3875D91929DE65001B28E5 /* ReaderThumbCache.m in Sources */,
 				EC0F24131927021B00C19426 /* main.m in Sources */,
 				EC3875841929B4ED001B28E5 /* XSSearchViewController.m in Sources */,
@@ -489,6 +580,7 @@
 				EC3875811929B4DE001B28E5 /* XSActionListViewController.m in Sources */,
 				EC3875DA1929DE65001B28E5 /* ReaderThumbFetch.m in Sources */,
 				EC0F24171927021B00C19426 /* XSAppDelegate.m in Sources */,
+				EC387608192ADC53001B28E5 /* XSEFQuestionsViewController.m in Sources */,
 				EC3875A61929DE43001B28E5 /* ReaderDemoController.m in Sources */,
 				EC3875DD1929DE65001B28E5 /* ReaderThumbRequest.m in Sources */,
 				EC3875A41929DE43001B28E5 /* ReaderAppDelegate.m in Sources */,
@@ -507,8 +599,10 @@
 				EC38757E1929B4BA001B28E5 /* XSHomeViewController.m in Sources */,
 				EC3875DB1929DE65001B28E5 /* ReaderThumbQueue.m in Sources */,
 				EC3875DC1929DE65001B28E5 /* ReaderThumbRender.m in Sources */,
+				EC3875F5192ABE33001B28E5 /* XSCFTestimonialViewController.m in Sources */,
 				EC3875E9192A0D66001B28E5 /* XSEFTestimonialViewController.m in Sources */,
 				EC3875A51929DE43001B28E5 /* ReaderBookDelegate.m in Sources */,
+				EC3875F2192ABE14001B28E5 /* XSFSTestimonialViewController.m in Sources */,
 				EC3875E21929DE65001B28E5 /* ThumbsViewController.m in Sources */,
 				EC3875871929B50F001B28E5 /* XSReferenceViewController.m in Sources */,
 			);

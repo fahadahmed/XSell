@@ -1,19 +1,18 @@
 //
-//  XSVideoViewController.m
+//  XSEFQuestionsViewController.m
 //  XSell
 //
-//  Created by Fahad Ahmed on 19/05/2014.
+//  Created by Fahad Ahmed on 20/05/2014.
 //  Copyright (c) 2014 GE Capital ANZ. All rights reserved.
 //
 
-#import "XSVideoViewController.h"
+#import "XSEFQuestionsViewController.h"
 
-@interface XSVideoViewController ()
+@interface XSEFQuestionsViewController ()
 
 @end
 
-@implementation XSVideoViewController
-@synthesize videoView, videoURL, videoHTML;
+@implementation XSEFQuestionsViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -28,8 +27,6 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    NSLog(@"%@", videoURL);
-    [self embedYouTube];
 }
 
 - (void)didReceiveMemoryWarning
@@ -37,13 +34,5 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-- (void)embedYouTube {
-    NSURL *myURL = [NSURL URLWithString:videoURL];
-    NSURLRequest *request = [NSURLRequest requestWithURL:myURL];
-    [[self videoView] loadRequest:request];
-}
 
-- (void)switchback:(id)sender {
-    [self dismissModalViewControllerAnimated:YES];
-}
 @end

@@ -19,6 +19,6 @@
 @property (nonatomic, strong) NSString *videoHTML;
 
 - (void)embedYouTube;
-
+- (IBAction)switchback:(id)sender;
 
 @end

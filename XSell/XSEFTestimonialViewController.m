@@ -47,8 +47,12 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     NSLog(@"%@", segue.identifier);
     if ([segue.identifier isEqualToString:@"showEFVideoOne"]) {
+        
+         NSLog(@"1111%@", segue.identifier);
         UINavigationController *navController = (UINavigationController *)[segue destinationViewController];
+         NSLog(@"222%@", segue.identifier);
         XSVideoViewController *video = (XSVideoViewController *)[[navController viewControllers] lastObject];
+         NSLog(@"3333%@", segue.identifier);
         video.videoURL = @"http://youtu.be/LzQrESiZwWY";
     }
     if ([segue.identifier isEqualToString:@"showEFVideoTwo"]) {
