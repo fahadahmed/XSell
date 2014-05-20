@@ -9,12 +9,13 @@
 #import <UIKit/UIKit.h>
 #import "ReaderViewController.h"
 
-@interface XSResourceViewController : UIViewController <ReaderViewControllerDelegate>
+@interface XSResourceViewController : UIViewController <ReaderViewControllerDelegate, UIActionSheetDelegate>
 - (IBAction)showAccessGE:(id)sender;
 - (IBAction)showMidMarket:(id)sender;
 
 - (IBAction)showLinkAccessGE:(id)sender;
 - (IBAction)showLinkMidMarket:(id)sender;
 
+- (IBAction)showActionSheetAccessGE:(id)sender;
 - (IBAction)createCBLSForm:(id)sender;
 @end

@@ -285,7 +285,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wxV-dD-MTX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5219" y="-3447"/>
+            <point key="canvasLocation" x="6832" y="-2879"/>
         </scene>
         <!--Testimonial View Controller - Testimonials - Equipment Finance-->
         <scene sceneID="ydv-YD-NOF">
@@ -418,7 +418,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZJ-dO-MBk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5226" y="-2260"/>
+            <point key="canvasLocation" x="6832" y="-1964"/>
         </scene>
         <!--Testimonial View Controller - Testimonials - Distribution Finance-->
         <scene sceneID="fw9-b5-lRH">
@@ -604,7 +604,7 @@ Cg
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="akf-8U-oL4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5254" y="-1135"/>
+            <point key="canvasLocation" x="6832" y="-847"/>
         </scene>
         <!--Testimonial View Controller - Testimonials - Fleet Solutions-->
         <scene sceneID="B1H-5o-bNM">
@@ -744,7 +744,7 @@ Cg
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p2L-cG-GBW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5192" y="-163"/>
+            <point key="canvasLocation" x="6832" y="192"/>
         </scene>
         <!--Testimonial View Controller - Testimonials - Corporate Finance-->
         <scene sceneID="g8o-iu-J3O">
@@ -1439,6 +1439,9 @@ Cg
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="showActionSheetAccessGE:" destination="7vv-Js-QDd" eventType="touchUpInside" id="iT2-P1-Q4X"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DP2-wk-xln">
                                 <rect key="frame" x="684" y="392" width="138" height="46"/>
