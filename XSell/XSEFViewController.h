@@ -10,9 +10,8 @@
 #import "ReaderViewController.h"
 
 @interface XSEFViewController : UIViewController <ReaderViewControllerDelegate>
-@property (nonatomic, strong) NSArray *products;
-@property (nonatomic, strong) NSString *businessDescription;
 
+@property (strong, nonatomic) IBOutlet UITextView *businessDescription;
 
 - (IBAction)showBrochure:(id)sender;
 

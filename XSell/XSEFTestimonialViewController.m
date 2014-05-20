@@ -53,12 +53,12 @@
          NSLog(@"222%@", segue.identifier);
         XSVideoViewController *video = (XSVideoViewController *)[[navController viewControllers] lastObject];
          NSLog(@"3333%@", segue.identifier);
-        video.videoURL = @"Grant-Burge-Testimonial.mp4";
+        video.videoURL = @"http://www.youtube.com/embed/LzQrESiZwWY";
     }
     if ([segue.identifier isEqualToString:@"showEFVideoTwo"]) {
         UINavigationController *navController = (UINavigationController *)[segue destinationViewController];
         XSVideoViewController *video = (XSVideoViewController *)[[navController viewControllers] lastObject];
-        video.videoURL = @"http://youtu.be/LzQrESiZwWY";
+        video.videoURL = @"http://www.youtube.com/embed/7VxsBzvfLa0";
     }
 }
 @end

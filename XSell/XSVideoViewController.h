@@ -7,12 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MediaPlayer/MediaPlayer.h>
 
 @interface XSVideoViewController : UIViewController {
     IBOutlet UIWebView *videoView;
     NSString *videoURL;
     NSString *videoHTML;
 }
+@property (nonatomic, strong) MPMoviePlayerController *mvplayer;
 
 @property (nonatomic, strong) IBOutlet UIWebView *videoView;
 @property (nonatomic, strong) NSString *videoURL;

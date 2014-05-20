@@ -86,6 +86,25 @@
 		EC387623192AEA45001B28E5 /* CorpF.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC38761F192AEA45001B28E5 /* CorpF.jpg */; };
 		EC387624192AEA45001B28E5 /* DF.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC387620192AEA45001B28E5 /* DF.jpg */; };
 		EC387625192AEA45001B28E5 /* EF.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC387621192AEA45001B28E5 /* EF.jpg */; };
+		EC38762B192AEFE0001B28E5 /* brochure_CF_Assetsbasedlending.pdf in Resources */ = {isa = PBXBuildFile; fileRef = EC387626192AEFE0001B28E5 /* brochure_CF_Assetsbasedlending.pdf */; };
+		EC38762C192AEFE0001B28E5 /* brochure_CF_Aviation.pdf in Resources */ = {isa = PBXBuildFile; fileRef = EC387627192AEFE0001B28E5 /* brochure_CF_Aviation.pdf */; };
+		EC38762D192AEFE0001B28E5 /* brochure_CF_DebtorFinance.pdf in Resources */ = {isa = PBXBuildFile; fileRef = EC387628192AEFE0001B28E5 /* brochure_CF_DebtorFinance.pdf */; };
+		EC38762E192AEFE0001B28E5 /* brochure_DF.pdf in Resources */ = {isa = PBXBuildFile; fileRef = EC387629192AEFE0001B28E5 /* brochure_DF.pdf */; };
+		EC38762F192AEFE0001B28E5 /* brochure_EF.pdf in Resources */ = {isa = PBXBuildFile; fileRef = EC38762A192AEFE0001B28E5 /* brochure_EF.pdf */; };
+		EC387632192AFB70001B28E5 /* XSDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC387631192AFB70001B28E5 /* XSDFViewController.m */; };
+		EC387635192AFDF7001B28E5 /* XSFSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC387634192AFDF7001B28E5 /* XSFSViewController.m */; };
+		EC387638192AFF57001B28E5 /* XSCFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC387637192AFF57001B28E5 /* XSCFViewController.m */; };
+		EC38763D192B083C001B28E5 /* corporate-and-business-lendingt-500x532.png in Resources */ = {isa = PBXBuildFile; fileRef = EC387639192B083C001B28E5 /* corporate-and-business-lendingt-500x532.png */; };
+		EC38763E192B083C001B28E5 /* equipment-and-aviation-finance-500x532.png in Resources */ = {isa = PBXBuildFile; fileRef = EC38763A192B083C001B28E5 /* equipment-and-aviation-finance-500x532.png */; };
+		EC38763F192B083C001B28E5 /* fleet-500x532.png in Resources */ = {isa = PBXBuildFile; fileRef = EC38763B192B083C001B28E5 /* fleet-500x532.png */; };
+		EC387640192B083C001B28E5 /* supply-chain-finance-500x532.png in Resources */ = {isa = PBXBuildFile; fileRef = EC38763C192B083C001B28E5 /* supply-chain-finance-500x532.png */; };
+		EC387645192B0F37001B28E5 /* corporate-and-business-lending-512x285.gif in Resources */ = {isa = PBXBuildFile; fileRef = EC387641192B0F37001B28E5 /* corporate-and-business-lending-512x285.gif */; };
+		EC387646192B0F37001B28E5 /* equipment-and-aviation-finance-512x285.gif in Resources */ = {isa = PBXBuildFile; fileRef = EC387642192B0F37001B28E5 /* equipment-and-aviation-finance-512x285.gif */; };
+		EC387647192B0F37001B28E5 /* fleet-solutions-512x285.gif in Resources */ = {isa = PBXBuildFile; fileRef = EC387643192B0F37001B28E5 /* fleet-solutions-512x285.gif */; };
+		EC387648192B0F37001B28E5 /* supply-chain-finance-512x285.gif in Resources */ = {isa = PBXBuildFile; fileRef = EC387644192B0F37001B28E5 /* supply-chain-finance-512x285.gif */; };
+		EC38764C192B145D001B28E5 /* Access GE.png in Resources */ = {isa = PBXBuildFile; fileRef = EC387649192B145D001B28E5 /* Access GE.png */; };
+		EC38764D192B145D001B28E5 /* CBLS.png in Resources */ = {isa = PBXBuildFile; fileRef = EC38764A192B145D001B28E5 /* CBLS.png */; };
+		EC38764E192B145D001B28E5 /* Mid Market.png in Resources */ = {isa = PBXBuildFile; fileRef = EC38764B192B145D001B28E5 /* Mid Market.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -215,13 +234,32 @@
 		EC387614192AE440001B28E5 /* cityscape.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cityscape.gif; sourceTree = "<group>"; };
 		EC387616192AE4BD001B28E5 /* cityscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cityscape.png; sourceTree = "<group>"; };
 		EC387619192AE668001B28E5 /* banner-1024x87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banner-1024x87.png"; sourceTree = "<group>"; };
-		EC38761B192AE7F1001B28E5 /* Grant-Burge-Testimonial.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Grant-Burge-Testimonial.mp4"; sourceTree = "<group>"; };
-		EC38761C192AE7F1001B28E5 /* TSA Polycom Testimonial.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TSA Polycom Testimonial.mp4"; sourceTree = "<group>"; };
-		EC38761D192AE7F1001B28E5 /* WDS Testimonial.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WDS Testimonial.mp4"; sourceTree = "<group>"; };
 		EC38761E192AEA45001B28E5 /* CF.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CF.jpg; sourceTree = "<group>"; };
 		EC38761F192AEA45001B28E5 /* CorpF.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CorpF.jpg; sourceTree = "<group>"; };
 		EC387620192AEA45001B28E5 /* DF.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DF.jpg; sourceTree = "<group>"; };
 		EC387621192AEA45001B28E5 /* EF.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EF.jpg; sourceTree = "<group>"; };
+		EC387626192AEFE0001B28E5 /* brochure_CF_Assetsbasedlending.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = brochure_CF_Assetsbasedlending.pdf; sourceTree = "<group>"; };
+		EC387627192AEFE0001B28E5 /* brochure_CF_Aviation.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = brochure_CF_Aviation.pdf; sourceTree = "<group>"; };
+		EC387628192AEFE0001B28E5 /* brochure_CF_DebtorFinance.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = brochure_CF_DebtorFinance.pdf; sourceTree = "<group>"; };
+		EC387629192AEFE0001B28E5 /* brochure_DF.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = brochure_DF.pdf; sourceTree = "<group>"; };
+		EC38762A192AEFE0001B28E5 /* brochure_EF.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = brochure_EF.pdf; sourceTree = "<group>"; };
+		EC387630192AFB70001B28E5 /* XSDFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSDFViewController.h; sourceTree = "<group>"; };
+		EC387631192AFB70001B28E5 /* XSDFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSDFViewController.m; sourceTree = "<group>"; };
+		EC387633192AFDF7001B28E5 /* XSFSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSFSViewController.h; sourceTree = "<group>"; };
+		EC387634192AFDF7001B28E5 /* XSFSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSFSViewController.m; sourceTree = "<group>"; };
+		EC387636192AFF57001B28E5 /* XSCFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSCFViewController.h; sourceTree = "<group>"; };
+		EC387637192AFF57001B28E5 /* XSCFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSCFViewController.m; sourceTree = "<group>"; };
+		EC387639192B083C001B28E5 /* corporate-and-business-lendingt-500x532.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "corporate-and-business-lendingt-500x532.png"; sourceTree = "<group>"; };
+		EC38763A192B083C001B28E5 /* equipment-and-aviation-finance-500x532.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "equipment-and-aviation-finance-500x532.png"; sourceTree = "<group>"; };
+		EC38763B192B083C001B28E5 /* fleet-500x532.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fleet-500x532.png"; sourceTree = "<group>"; };
+		EC38763C192B083C001B28E5 /* supply-chain-finance-500x532.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "supply-chain-finance-500x532.png"; sourceTree = "<group>"; };
+		EC387641192B0F37001B28E5 /* corporate-and-business-lending-512x285.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "corporate-and-business-lending-512x285.gif"; sourceTree = "<group>"; };
+		EC387642192B0F37001B28E5 /* equipment-and-aviation-finance-512x285.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "equipment-and-aviation-finance-512x285.gif"; sourceTree = "<group>"; };
+		EC387643192B0F37001B28E5 /* fleet-solutions-512x285.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "fleet-solutions-512x285.gif"; sourceTree = "<group>"; };
+		EC387644192B0F37001B28E5 /* supply-chain-finance-512x285.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "supply-chain-finance-512x285.gif"; sourceTree = "<group>"; };
+		EC387649192B145D001B28E5 /* Access GE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Access GE.png"; sourceTree = "<group>"; };
+		EC38764A192B145D001B28E5 /* CBLS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CBLS.png; sourceTree = "<group>"; };
+		EC38764B192B145D001B28E5 /* Mid Market.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mid Market.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -322,6 +360,12 @@
 				EC3875E8192A0D66001B28E5 /* XSEFTestimonialViewController.m */,
 				EC3875ED192ABDF7001B28E5 /* XSDFTestimonialViewController.h */,
 				EC3875EE192ABDF7001B28E5 /* XSDFTestimonialViewController.m */,
+				EC387630192AFB70001B28E5 /* XSDFViewController.h */,
+				EC387631192AFB70001B28E5 /* XSDFViewController.m */,
+				EC387633192AFDF7001B28E5 /* XSFSViewController.h */,
+				EC387634192AFDF7001B28E5 /* XSFSViewController.m */,
+				EC387636192AFF57001B28E5 /* XSCFViewController.h */,
+				EC387637192AFF57001B28E5 /* XSCFViewController.m */,
 				EC3875F0192ABE14001B28E5 /* XSFSTestimonialViewController.h */,
 				EC3875F1192ABE14001B28E5 /* XSFSTestimonialViewController.m */,
 				EC3875F3192ABE33001B28E5 /* XSCFTestimonialViewController.h */,
@@ -335,7 +379,6 @@
 		EC0F240D1927021B00C19426 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				EC387618192AE58C001B28E5 /* Videos */,
 				EC3875A71929DE5B001B28E5 /* Sources */,
 				EC38759D1929DE32001B28E5 /* Classes */,
 				EC60682919298D8A00176DF8 /* Documents */,
@@ -430,19 +473,20 @@
 			name = Sources;
 			sourceTree = "<group>";
 		};
-		EC387618192AE58C001B28E5 /* Videos */ = {
-			isa = PBXGroup;
-			children = (
-				EC38761B192AE7F1001B28E5 /* Grant-Burge-Testimonial.mp4 */,
-				EC38761C192AE7F1001B28E5 /* TSA Polycom Testimonial.mp4 */,
-				EC38761D192AE7F1001B28E5 /* WDS Testimonial.mp4 */,
-			);
-			name = Videos;
-			sourceTree = "<group>";
-		};
 		EC60682819298D7E00176DF8 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				EC387649192B145D001B28E5 /* Access GE.png */,
+				EC38764A192B145D001B28E5 /* CBLS.png */,
+				EC38764B192B145D001B28E5 /* Mid Market.png */,
+				EC387639192B083C001B28E5 /* corporate-and-business-lendingt-500x532.png */,
+				EC38763A192B083C001B28E5 /* equipment-and-aviation-finance-500x532.png */,
+				EC387641192B0F37001B28E5 /* corporate-and-business-lending-512x285.gif */,
+				EC387642192B0F37001B28E5 /* equipment-and-aviation-finance-512x285.gif */,
+				EC387643192B0F37001B28E5 /* fleet-solutions-512x285.gif */,
+				EC387644192B0F37001B28E5 /* supply-chain-finance-512x285.gif */,
+				EC38763B192B083C001B28E5 /* fleet-500x532.png */,
+				EC38763C192B083C001B28E5 /* supply-chain-finance-500x532.png */,
 				EC38761E192AEA45001B28E5 /* CF.jpg */,
 				EC38761F192AEA45001B28E5 /* CorpF.jpg */,
 				EC387620192AEA45001B28E5 /* DF.jpg */,
@@ -469,6 +513,11 @@
 		EC60682919298D8A00176DF8 /* Documents */ = {
 			isa = PBXGroup;
 			children = (
+				EC387626192AEFE0001B28E5 /* brochure_CF_Assetsbasedlending.pdf */,
+				EC387627192AEFE0001B28E5 /* brochure_CF_Aviation.pdf */,
+				EC387628192AEFE0001B28E5 /* brochure_CF_DebtorFinance.pdf */,
+				EC387629192AEFE0001B28E5 /* brochure_DF.pdf */,
+				EC38762A192AEFE0001B28E5 /* brochure_EF.pdf */,
 				EC38759B1929C9FD001B28E5 /* Developers.pdf */,
 			);
 			name = Documents;
@@ -553,25 +602,41 @@
 				EC387610192AE30B001B28E5 /* CF.png in Resources */,
 				EC38759C1929C9FD001B28E5 /* Developers.pdf in Resources */,
 				EC387601192AD594001B28E5 /* business-connect-module-64x64.png in Resources */,
+				EC387647192B0F37001B28E5 /* fleet-solutions-512x285.gif in Resources */,
 				EC387600192AD594001B28E5 /* business-connect-module-32x32.png in Resources */,
+				EC38762E192AEFE0001B28E5 /* brochure_DF.pdf in Resources */,
+				EC38764E192B145D001B28E5 /* Mid Market.png in Resources */,
 				EC387613192AE30B001B28E5 /* EF.png in Resources */,
+				EC38763F192B083C001B28E5 /* fleet-500x532.png in Resources */,
+				EC387648192B0F37001B28E5 /* supply-chain-finance-512x285.gif in Resources */,
+				EC38764C192B145D001B28E5 /* Access GE.png in Resources */,
+				EC387645192B0F37001B28E5 /* corporate-and-business-lending-512x285.gif in Resources */,
 				EC387604192AD594001B28E5 /* business-connect-sitemap-32x32.png in Resources */,
 				EC387612192AE30B001B28E5 /* DF.png in Resources */,
 				EC387615192AE440001B28E5 /* cityscape.gif in Resources */,
+				EC387640192B083C001B28E5 /* supply-chain-finance-500x532.png in Resources */,
 				EC38756F192990FD001B28E5 /* XSell.storyboard in Resources */,
+				EC38763D192B083C001B28E5 /* corporate-and-business-lendingt-500x532.png in Resources */,
 				EC387605192AD594001B28E5 /* business-connect-sitemap-64x64.png in Resources */,
 				EC387622192AEA45001B28E5 /* CF.jpg in Resources */,
+				EC38762C192AEFE0001B28E5 /* brochure_CF_Aviation.pdf in Resources */,
 				EC0F24111927021B00C19426 /* InfoPlist.strings in Resources */,
 				EC387602192AD594001B28E5 /* business-connect-polygon-32x32.png in Resources */,
 				EC387603192AD594001B28E5 /* business-connect-polygon-64x64.png in Resources */,
 				EC387617192AE4BD001B28E5 /* cityscape.png in Resources */,
+				EC387646192B0F37001B28E5 /* equipment-and-aviation-finance-512x285.gif in Resources */,
 				EC3875FE192AD594001B28E5 /* business-connect-link-32x32.png in Resources */,
 				EC0F241C1927021B00C19426 /* Images.xcassets in Resources */,
 				EC387624192AEA45001B28E5 /* DF.jpg in Resources */,
 				EC387611192AE30B001B28E5 /* CorpF.png in Resources */,
+				EC38764D192B145D001B28E5 /* CBLS.png in Resources */,
+				EC38763E192B083C001B28E5 /* equipment-and-aviation-finance-500x532.png in Resources */,
 				EC3875FF192AD594001B28E5 /* business-connect-link-64x64.png in Resources */,
 				EC387623192AEA45001B28E5 /* CorpF.jpg in Resources */,
+				EC38762F192AEFE0001B28E5 /* brochure_EF.pdf in Resources */,
 				EC38761A192AE668001B28E5 /* banner-1024x87.png in Resources */,
+				EC38762B192AEFE0001B28E5 /* brochure_CF_Assetsbasedlending.pdf in Resources */,
+				EC38762D192AEFE0001B28E5 /* brochure_CF_DebtorFinance.pdf in Resources */,
 				EC387625192AEA45001B28E5 /* EF.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -626,8 +691,11 @@
 				EC3875DB1929DE65001B28E5 /* ReaderThumbQueue.m in Sources */,
 				EC3875DC1929DE65001B28E5 /* ReaderThumbRender.m in Sources */,
 				EC3875F5192ABE33001B28E5 /* XSCFTestimonialViewController.m in Sources */,
+				EC387632192AFB70001B28E5 /* XSDFViewController.m in Sources */,
 				EC3875E9192A0D66001B28E5 /* XSEFTestimonialViewController.m in Sources */,
+				EC387638192AFF57001B28E5 /* XSCFViewController.m in Sources */,
 				EC3875A51929DE43001B28E5 /* ReaderBookDelegate.m in Sources */,
+				EC387635192AFDF7001B28E5 /* XSFSViewController.m in Sources */,
 				EC3875F2192ABE14001B28E5 /* XSFSTestimonialViewController.m in Sources */,
 				EC3875E21929DE65001B28E5 /* ThumbsViewController.m in Sources */,
 				EC3875871929B50F001B28E5 /* XSReferenceViewController.m in Sources */,

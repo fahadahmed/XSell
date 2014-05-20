@@ -13,7 +13,7 @@
 @end
 
 @implementation XSVideoViewController
-@synthesize videoView, videoURL, videoHTML;
+@synthesize videoView, videoURL, videoHTML, mvplayer;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -30,7 +30,10 @@
 	// Do any additional setup after loading the view.
     NSLog(@"%@", videoURL);
     [self embedYouTube];
+    
+    
 }
+
 
 - (void)didReceiveMemoryWarning
 {
