@@ -28,7 +28,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     [self.navigationController.navigationBar setHidden:NO];
-    _businessDescription.text = @" Support your dealer network to supply a full range of products and increase sales while still receiving guaranteed payments to help manage your cash flow. Purchase the inventory you need to help generate sales without having to tie up your working capital. Get a dedicated line of credit facility solely for financing inventory. Help deliver value through the supply chain. Channel Finance provides manufacturers, distributors and resellers with a working capital solution aligned to the entire inventory and cash conversion cycle. Finance goods from overseas, and help improve your ability to import stock without having to tie up working capital. Help make your customers’ decisions easier by offering Retail Finance so that they can buy now.";
+    _businessDescription.text = @"Distribution Finance provides finance solutions for organisations across the full supply chain. From supplier to manufacturer and distributor to dealer, Distribution Finance helps businesses purchase and sell more inventory by providing flexible financing facilities. Distribution Finance programs can increase purchasing power, help grow sales and provide inventory management information that improves administrative efficiency.";
     [_businessDescription setFont:[UIFont systemFontOfSize:20.0f]];
     _businessDescription.textAlignment = NSTextAlignmentJustified;
 }

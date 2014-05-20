@@ -28,7 +28,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     [self.navigationController.navigationBar setHidden:NO];
-    _businessDescription.text = @" Turn your business assets into borrowing power. Whether it’s your debtor book, inventory or plant and equipment, we can help you unlock capital to support your business. Want specialised finance to support a buyout, acquisition, growth funding needs, refinancing or recapitalisation? We can Provide flexible and tailored finance to suit your needs. Bridge the gap between invoicing your customers and receiving payment to get fast and simple access to working capital. Use a cash flow loan to grow your business while maximising liquidity and flexibility.";
+    _businessDescription.text = @" Corporate Finance is a leading provider of cash flow and asset backed lending products. Its business verticals of Debtor Finance, Corporate Lending, Leverage & Sponsor and Aviation Finance provide working capital solutions, senior term debt facilities and flexible lease structures that help mid-market businesses grow.";
     [_businessDescription setFont:[UIFont systemFontOfSize:20.0f]];
     _businessDescription.textAlignment = NSTextAlignmentJustified;
 }

@@ -32,7 +32,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     [self.navigationController.navigationBar setHidden:NO];
-    _businessDescription.text = @"If you’re a business looking to make an investment in equipment, we can Help you acquire essential business assets whilst helping to preserve the cash and liquidity you need to keep your business running smoothly. Leasing can Free up cash flow and provide an easy path to expanding and upgrading your equipment. It may also reduce the risks of ownership for your business and end of term asset disposal risks. Leverageing the untapped equity within your unencumbered plant and equipment to support cash flow challenges or to take advantage of opportunities makes sense for growth businesses. Selling your equipment to us through a Sale and Leaseback package gives you an immediate injection of funds and a simpler balance sheet position.Keeping up with advances in technology can be a challenge but with our Healthcare Equipment Finance you have flexibility to upgrade or add equipment when you need it.With over 30 years’ experience in Aviation Finance, we have deep expertise in aviation financing for individuals, corporations, aircraft resellers and charter companies.";
+    _businessDescription.text = @"Equipment Finance can provide the funds to purchase or refinance equipment to assist business growth. Equipment Finance’s in-depth understanding of equipment values can also help businesses realise greater capital for restructures, expansions, mergers and acquisitions.";
     [_businessDescription setFont:[UIFont systemFontOfSize:20.0f]];
     _businessDescription.textAlignment = NSTextAlignmentJustified;
     

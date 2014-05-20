@@ -28,7 +28,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     [self.navigationController.navigationBar setHidden:NO];
-    _businessDescription.text = @"Enable fleet leasing for your business not only allows you to free up capital and budget your expenses, it also means you can tailor your fleet requirements to your business goals and objectives. Our Fleet Management Services can help you Get you the most from your fleet. From identifying opportunities to reduce costs, to managing breakdowns and tracking performance, our global fleet management experience can help maximise your fleet efficiency. Attract and retain staff by offering them the option of a Novated Lease. With a Novated Leasing solution your staff can pick the car of their choice and have access to competitive fleet discounts..";
+    _businessDescription.text = @"Custom Fleet is a leading provider of fleet finance for passenger vehicles, light and heavy commercial vehicles and fully integrated fleet management services. Combining vehicle management, finance and fuel purchasing, we help businesses optimise their fleets, from productivity through to managing environmental impacts. Custom Fleet experts provide strategic and industry insights and recommendations based on more than 30 year’s experience in fleet management.";
     [_businessDescription setFont:[UIFont systemFontOfSize:20.0f]];
     _businessDescription.textAlignment = NSTextAlignmentJustified;
 }

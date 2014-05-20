@@ -79,7 +79,6 @@
 		EC387611192AE30B001B28E5 /* CorpF.png in Resources */ = {isa = PBXBuildFile; fileRef = EC38760D192AE30B001B28E5 /* CorpF.png */; };
 		EC387612192AE30B001B28E5 /* DF.png in Resources */ = {isa = PBXBuildFile; fileRef = EC38760E192AE30B001B28E5 /* DF.png */; };
 		EC387613192AE30B001B28E5 /* EF.png in Resources */ = {isa = PBXBuildFile; fileRef = EC38760F192AE30B001B28E5 /* EF.png */; };
-		EC38761A192AE668001B28E5 /* banner-1024x87.png in Resources */ = {isa = PBXBuildFile; fileRef = EC387619192AE668001B28E5 /* banner-1024x87.png */; };
 		EC387622192AEA45001B28E5 /* CF.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC38761E192AEA45001B28E5 /* CF.jpg */; };
 		EC387623192AEA45001B28E5 /* CorpF.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC38761F192AEA45001B28E5 /* CorpF.jpg */; };
 		EC387624192AEA45001B28E5 /* DF.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC387620192AEA45001B28E5 /* DF.jpg */; };
@@ -104,6 +103,21 @@
 		EC38764D192B145D001B28E5 /* CBLS.png in Resources */ = {isa = PBXBuildFile; fileRef = EC38764A192B145D001B28E5 /* CBLS.png */; };
 		EC38764E192B145D001B28E5 /* Mid Market.png in Resources */ = {isa = PBXBuildFile; fileRef = EC38764B192B145D001B28E5 /* Mid Market.png */; };
 		EC387650192B1917001B28E5 /* cityscape.png in Resources */ = {isa = PBXBuildFile; fileRef = EC38764F192B1917001B28E5 /* cityscape.png */; };
+		EC387652192B1BCD001B28E5 /* AccessGE.pdf in Resources */ = {isa = PBXBuildFile; fileRef = EC387651192B1BCD001B28E5 /* AccessGE.pdf */; };
+		EC387654192B1C53001B28E5 /* MidMarket.pdf in Resources */ = {isa = PBXBuildFile; fileRef = EC387653192B1C53001B28E5 /* MidMarket.pdf */; };
+		EC387657192B1C70001B28E5 /* XSResourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC387656192B1C70001B28E5 /* XSResourceViewController.m */; };
+		EC38765A192B1FBB001B28E5 /* app-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EC387658192B1FBA001B28E5 /* app-icon.png */; };
+		EC38765B192B1FBB001B28E5 /* app-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC387659192B1FBB001B28E5 /* app-icon@2x.png */; };
+		EC38765E192B26A5001B28E5 /* XSCBLSFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC38765D192B26A5001B28E5 /* XSCBLSFormViewController.m */; };
+		EC490041192B3C9100004356 /* banner-1024x87.png in Resources */ = {isa = PBXBuildFile; fileRef = EC490040192B3C9100004356 /* banner-1024x87.png */; };
+		EC490046192B3D4C00004356 /* corporate-finance-512x285.png in Resources */ = {isa = PBXBuildFile; fileRef = EC490042192B3D4C00004356 /* corporate-finance-512x285.png */; };
+		EC490047192B3D4C00004356 /* distribution-finance-512x285.png in Resources */ = {isa = PBXBuildFile; fileRef = EC490043192B3D4C00004356 /* distribution-finance-512x285.png */; };
+		EC490048192B3D4C00004356 /* equipment-finance-512x285.png in Resources */ = {isa = PBXBuildFile; fileRef = EC490044192B3D4C00004356 /* equipment-finance-512x285.png */; };
+		EC490049192B3D4C00004356 /* fleet-solutions-512x285.png in Resources */ = {isa = PBXBuildFile; fileRef = EC490045192B3D4C00004356 /* fleet-solutions-512x285.png */; };
+		EC49004E192B3F2200004356 /* corporate-finance-500x532.png in Resources */ = {isa = PBXBuildFile; fileRef = EC49004A192B3F2200004356 /* corporate-finance-500x532.png */; };
+		EC49004F192B3F2200004356 /* distribution-finance-500x532.png in Resources */ = {isa = PBXBuildFile; fileRef = EC49004B192B3F2200004356 /* distribution-finance-500x532.png */; };
+		EC490050192B3F2200004356 /* equipment-finance-500x532.png in Resources */ = {isa = PBXBuildFile; fileRef = EC49004C192B3F2200004356 /* equipment-finance-500x532.png */; };
+		EC490051192B3F2200004356 /* fleet-solutions-500x532.png in Resources */ = {isa = PBXBuildFile; fileRef = EC49004D192B3F2200004356 /* fleet-solutions-500x532.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -230,7 +244,6 @@
 		EC38760D192AE30B001B28E5 /* CorpF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CorpF.png; sourceTree = "<group>"; };
 		EC38760E192AE30B001B28E5 /* DF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DF.png; sourceTree = "<group>"; };
 		EC38760F192AE30B001B28E5 /* EF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EF.png; sourceTree = "<group>"; };
-		EC387619192AE668001B28E5 /* banner-1024x87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banner-1024x87.png"; sourceTree = "<group>"; };
 		EC38761E192AEA45001B28E5 /* CF.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CF.jpg; sourceTree = "<group>"; };
 		EC38761F192AEA45001B28E5 /* CorpF.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CorpF.jpg; sourceTree = "<group>"; };
 		EC387620192AEA45001B28E5 /* DF.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DF.jpg; sourceTree = "<group>"; };
@@ -258,6 +271,23 @@
 		EC38764A192B145D001B28E5 /* CBLS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CBLS.png; sourceTree = "<group>"; };
 		EC38764B192B145D001B28E5 /* Mid Market.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mid Market.png"; sourceTree = "<group>"; };
 		EC38764F192B1917001B28E5 /* cityscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cityscape.png; sourceTree = "<group>"; };
+		EC387651192B1BCD001B28E5 /* AccessGE.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AccessGE.pdf; sourceTree = "<group>"; };
+		EC387653192B1C53001B28E5 /* MidMarket.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = MidMarket.pdf; sourceTree = "<group>"; };
+		EC387655192B1C70001B28E5 /* XSResourceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSResourceViewController.h; sourceTree = "<group>"; };
+		EC387656192B1C70001B28E5 /* XSResourceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSResourceViewController.m; sourceTree = "<group>"; };
+		EC387658192B1FBA001B28E5 /* app-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon.png"; sourceTree = "<group>"; };
+		EC387659192B1FBB001B28E5 /* app-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon@2x.png"; sourceTree = "<group>"; };
+		EC38765C192B26A5001B28E5 /* XSCBLSFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSCBLSFormViewController.h; sourceTree = "<group>"; };
+		EC38765D192B26A5001B28E5 /* XSCBLSFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSCBLSFormViewController.m; sourceTree = "<group>"; };
+		EC490040192B3C9100004356 /* banner-1024x87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banner-1024x87.png"; sourceTree = "<group>"; };
+		EC490042192B3D4C00004356 /* corporate-finance-512x285.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "corporate-finance-512x285.png"; sourceTree = "<group>"; };
+		EC490043192B3D4C00004356 /* distribution-finance-512x285.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "distribution-finance-512x285.png"; sourceTree = "<group>"; };
+		EC490044192B3D4C00004356 /* equipment-finance-512x285.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "equipment-finance-512x285.png"; sourceTree = "<group>"; };
+		EC490045192B3D4C00004356 /* fleet-solutions-512x285.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fleet-solutions-512x285.png"; sourceTree = "<group>"; };
+		EC49004A192B3F2200004356 /* corporate-finance-500x532.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "corporate-finance-500x532.png"; sourceTree = "<group>"; };
+		EC49004B192B3F2200004356 /* distribution-finance-500x532.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "distribution-finance-500x532.png"; sourceTree = "<group>"; };
+		EC49004C192B3F2200004356 /* equipment-finance-500x532.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "equipment-finance-500x532.png"; sourceTree = "<group>"; };
+		EC49004D192B3F2200004356 /* fleet-solutions-500x532.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fleet-solutions-500x532.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -370,6 +400,10 @@
 				EC3875F4192ABE33001B28E5 /* XSCFTestimonialViewController.m */,
 				EC3875EA192A0EEB001B28E5 /* XSVideoViewController.h */,
 				EC3875EB192A0EEB001B28E5 /* XSVideoViewController.m */,
+				EC387655192B1C70001B28E5 /* XSResourceViewController.h */,
+				EC387656192B1C70001B28E5 /* XSResourceViewController.m */,
+				EC38765C192B26A5001B28E5 /* XSCBLSFormViewController.h */,
+				EC38765D192B26A5001B28E5 /* XSCBLSFormViewController.m */,
 			);
 			path = XSell;
 			sourceTree = "<group>";
@@ -474,15 +508,26 @@
 		EC60682819298D7E00176DF8 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				EC387658192B1FBA001B28E5 /* app-icon.png */,
+				EC387659192B1FBB001B28E5 /* app-icon@2x.png */,
 				EC387649192B145D001B28E5 /* Access GE.png */,
 				EC38764A192B145D001B28E5 /* CBLS.png */,
 				EC38764B192B145D001B28E5 /* Mid Market.png */,
 				EC387639192B083C001B28E5 /* corporate-and-business-lendingt-500x532.png */,
 				EC38763A192B083C001B28E5 /* equipment-and-aviation-finance-500x532.png */,
+				EC49004A192B3F2200004356 /* corporate-finance-500x532.png */,
+				EC49004B192B3F2200004356 /* distribution-finance-500x532.png */,
+				EC49004C192B3F2200004356 /* equipment-finance-500x532.png */,
+				EC49004D192B3F2200004356 /* fleet-solutions-500x532.png */,
 				EC387641192B0F37001B28E5 /* corporate-and-business-lending-512x285.gif */,
 				EC38764F192B1917001B28E5 /* cityscape.png */,
 				EC387642192B0F37001B28E5 /* equipment-and-aviation-finance-512x285.gif */,
 				EC387643192B0F37001B28E5 /* fleet-solutions-512x285.gif */,
+				EC490040192B3C9100004356 /* banner-1024x87.png */,
+				EC490042192B3D4C00004356 /* corporate-finance-512x285.png */,
+				EC490043192B3D4C00004356 /* distribution-finance-512x285.png */,
+				EC490044192B3D4C00004356 /* equipment-finance-512x285.png */,
+				EC490045192B3D4C00004356 /* fleet-solutions-512x285.png */,
 				EC387644192B0F37001B28E5 /* supply-chain-finance-512x285.gif */,
 				EC38763B192B083C001B28E5 /* fleet-500x532.png */,
 				EC38763C192B083C001B28E5 /* supply-chain-finance-500x532.png */,
@@ -490,7 +535,6 @@
 				EC38761F192AEA45001B28E5 /* CorpF.jpg */,
 				EC387620192AEA45001B28E5 /* DF.jpg */,
 				EC387621192AEA45001B28E5 /* EF.jpg */,
-				EC387619192AE668001B28E5 /* banner-1024x87.png */,
 				EC38760C192AE30B001B28E5 /* CF.png */,
 				EC38760D192AE30B001B28E5 /* CorpF.png */,
 				EC38760E192AE30B001B28E5 /* DF.png */,
@@ -510,6 +554,8 @@
 		EC60682919298D8A00176DF8 /* Documents */ = {
 			isa = PBXGroup;
 			children = (
+				EC387653192B1C53001B28E5 /* MidMarket.pdf */,
+				EC387651192B1BCD001B28E5 /* AccessGE.pdf */,
 				EC387626192AEFE0001B28E5 /* brochure_CF_Assetsbasedlending.pdf */,
 				EC387627192AEFE0001B28E5 /* brochure_CF_Aviation.pdf */,
 				EC387628192AEFE0001B28E5 /* brochure_CF_DebtorFinance.pdf */,
@@ -596,13 +642,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC49004F192B3F2200004356 /* distribution-finance-500x532.png in Resources */,
+				EC490046192B3D4C00004356 /* corporate-finance-512x285.png in Resources */,
 				EC387610192AE30B001B28E5 /* CF.png in Resources */,
+				EC490051192B3F2200004356 /* fleet-solutions-500x532.png in Resources */,
 				EC38759C1929C9FD001B28E5 /* Developers.pdf in Resources */,
 				EC387601192AD594001B28E5 /* business-connect-module-64x64.png in Resources */,
 				EC387647192B0F37001B28E5 /* fleet-solutions-512x285.gif in Resources */,
+				EC38765A192B1FBB001B28E5 /* app-icon.png in Resources */,
 				EC387600192AD594001B28E5 /* business-connect-module-32x32.png in Resources */,
 				EC38762E192AEFE0001B28E5 /* brochure_DF.pdf in Resources */,
+				EC490047192B3D4C00004356 /* distribution-finance-512x285.png in Resources */,
 				EC38764E192B145D001B28E5 /* Mid Market.png in Resources */,
+				EC49004E192B3F2200004356 /* corporate-finance-500x532.png in Resources */,
 				EC387650192B1917001B28E5 /* cityscape.png in Resources */,
 				EC387613192AE30B001B28E5 /* EF.png in Resources */,
 				EC38763F192B083C001B28E5 /* fleet-500x532.png in Resources */,
@@ -610,6 +662,7 @@
 				EC38764C192B145D001B28E5 /* Access GE.png in Resources */,
 				EC387645192B0F37001B28E5 /* corporate-and-business-lending-512x285.gif in Resources */,
 				EC387604192AD594001B28E5 /* business-connect-sitemap-32x32.png in Resources */,
+				EC387652192B1BCD001B28E5 /* AccessGE.pdf in Resources */,
 				EC387612192AE30B001B28E5 /* DF.png in Resources */,
 				EC387640192B083C001B28E5 /* supply-chain-finance-500x532.png in Resources */,
 				EC38756F192990FD001B28E5 /* XSell.storyboard in Resources */,
@@ -622,18 +675,23 @@
 				EC387603192AD594001B28E5 /* business-connect-polygon-64x64.png in Resources */,
 				EC387646192B0F37001B28E5 /* equipment-and-aviation-finance-512x285.gif in Resources */,
 				EC3875FE192AD594001B28E5 /* business-connect-link-32x32.png in Resources */,
+				EC387654192B1C53001B28E5 /* MidMarket.pdf in Resources */,
 				EC0F241C1927021B00C19426 /* Images.xcassets in Resources */,
 				EC387624192AEA45001B28E5 /* DF.jpg in Resources */,
 				EC387611192AE30B001B28E5 /* CorpF.png in Resources */,
 				EC38764D192B145D001B28E5 /* CBLS.png in Resources */,
 				EC38763E192B083C001B28E5 /* equipment-and-aviation-finance-500x532.png in Resources */,
+				EC490041192B3C9100004356 /* banner-1024x87.png in Resources */,
+				EC490049192B3D4C00004356 /* fleet-solutions-512x285.png in Resources */,
+				EC490048192B3D4C00004356 /* equipment-finance-512x285.png in Resources */,
 				EC3875FF192AD594001B28E5 /* business-connect-link-64x64.png in Resources */,
 				EC387623192AEA45001B28E5 /* CorpF.jpg in Resources */,
 				EC38762F192AEFE0001B28E5 /* brochure_EF.pdf in Resources */,
-				EC38761A192AE668001B28E5 /* banner-1024x87.png in Resources */,
 				EC38762B192AEFE0001B28E5 /* brochure_CF_Assetsbasedlending.pdf in Resources */,
 				EC38762D192AEFE0001B28E5 /* brochure_CF_DebtorFinance.pdf in Resources */,
 				EC387625192AEA45001B28E5 /* EF.jpg in Resources */,
+				EC38765B192B1FBB001B28E5 /* app-icon@2x.png in Resources */,
+				EC490050192B3F2200004356 /* equipment-finance-500x532.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -654,6 +712,7 @@
 			files = (
 				EC3875D11929DE65001B28E5 /* ReaderConstants.m in Sources */,
 				EC3875E11929DE65001B28E5 /* ThumbsMainToolbar.m in Sources */,
+				EC38765E192B26A5001B28E5 /* XSCBLSFormViewController.m in Sources */,
 				EC3875D01929DE65001B28E5 /* CGPDFDocument.m in Sources */,
 				EC3875EF192ABDF7001B28E5 /* XSDFTestimonialViewController.m in Sources */,
 				EC38760B192ADC81001B28E5 /* XSEFProductViewController.m in Sources */,
@@ -691,6 +750,7 @@
 				EC3875E9192A0D66001B28E5 /* XSEFTestimonialViewController.m in Sources */,
 				EC387638192AFF57001B28E5 /* XSCFViewController.m in Sources */,
 				EC3875A51929DE43001B28E5 /* ReaderBookDelegate.m in Sources */,
+				EC387657192B1C70001B28E5 /* XSResourceViewController.m in Sources */,
 				EC387635192AFDF7001B28E5 /* XSFSViewController.m in Sources */,
 				EC3875F2192ABE14001B28E5 /* XSFSTestimonialViewController.m in Sources */,
 				EC3875E21929DE65001B28E5 /* ThumbsViewController.m in Sources */,
