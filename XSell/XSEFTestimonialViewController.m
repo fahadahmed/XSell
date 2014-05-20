@@ -53,7 +53,7 @@
          NSLog(@"222%@", segue.identifier);
         XSVideoViewController *video = (XSVideoViewController *)[[navController viewControllers] lastObject];
          NSLog(@"3333%@", segue.identifier);
-        video.videoURL = @"http://youtu.be/LzQrESiZwWY";
+        video.videoURL = @"Grant-Burge-Testimonial.mp4";
     }
     if ([segue.identifier isEqualToString:@"showEFVideoTwo"]) {
         UINavigationController *navController = (UINavigationController *)[segue destinationViewController];

@@ -511,7 +511,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.57441833939999998" blue="0.77121350359999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
-                                <state key="normal" title="Distribution Finance" backgroundImage="DF.png">
+                                <state key="normal" title="Distribution Finance" backgroundImage="DF.jpg">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -524,7 +524,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.57441833939999998" blue="0.77121350359999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
-                                <state key="normal" title="Equipment Finance" backgroundImage="EF.png">
+                                <state key="normal" title="Equipment Finance" backgroundImage="EF.jpg">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -537,7 +537,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.57441833939999998" blue="0.77121350359999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
-                                <state key="normal" title="Corporate Finance" backgroundImage="CorpF.png">
+                                <state key="normal" title="Corporate Finance" backgroundImage="CorpF.jpg">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -549,7 +549,7 @@
                                 <rect key="frame" x="512" y="148" width="512" height="285"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.57441833939999998" blue="0.77121350359999996" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" backgroundImage="CF.png">
+                                <state key="normal" backgroundImage="CF.jpg">
                                     <attributedString key="attributedTitle">
                                         <fragment content="Fleet Solutions">
                                             <attributes>
@@ -589,12 +589,13 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hpM-7O-Ya9">
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U2y-cm-UXC">
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="87"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.52916856751824815" green="0.41266537409999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="tintColor" red="0.61675980839416056" green="0.41266537409999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                            </imageView>
+                                <state key="normal" image="banner-1024x87.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -1074,10 +1075,11 @@
         </scene>
     </scenes>
     <resources>
-        <image name="CF.png" width="512" height="285"/>
-        <image name="CorpF.png" width="512" height="285"/>
-        <image name="DF.png" width="512" height="285"/>
-        <image name="EF.png" width="512" height="285"/>
+        <image name="CF.jpg" width="512" height="285"/>
+        <image name="CorpF.jpg" width="512" height="285"/>
+        <image name="DF.jpg" width="512" height="285"/>
+        <image name="EF.jpg" width="512" height="285"/>
+        <image name="banner-1024x87.png" width="1024" height="87"/>
         <image name="business-connect-link-32x32.png" width="32" height="32"/>
         <image name="business-connect-module-32x32.png" width="32" height="32"/>
         <image name="business-connect-polygon-32x32.png" width="32" height="32"/>
@@ -1090,8 +1092,8 @@
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="LUU-b6-vnM"/>
-        <segue reference="qrp-KU-XQn"/>
         <segue reference="RGU-2h-qxT"/>
+        <segue reference="qrp-KU-XQn"/>
         <segue reference="o9Q-nE-FKW"/>
         <segue reference="Pgi-7F-rsR"/>
     </inferredMetricsTieBreakers>

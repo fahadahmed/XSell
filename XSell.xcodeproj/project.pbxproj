@@ -81,6 +81,11 @@
 		EC387613192AE30B001B28E5 /* EF.png in Resources */ = {isa = PBXBuildFile; fileRef = EC38760F192AE30B001B28E5 /* EF.png */; };
 		EC387615192AE440001B28E5 /* cityscape.gif in Resources */ = {isa = PBXBuildFile; fileRef = EC387614192AE440001B28E5 /* cityscape.gif */; };
 		EC387617192AE4BD001B28E5 /* cityscape.png in Resources */ = {isa = PBXBuildFile; fileRef = EC387616192AE4BD001B28E5 /* cityscape.png */; };
+		EC38761A192AE668001B28E5 /* banner-1024x87.png in Resources */ = {isa = PBXBuildFile; fileRef = EC387619192AE668001B28E5 /* banner-1024x87.png */; };
+		EC387622192AEA45001B28E5 /* CF.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC38761E192AEA45001B28E5 /* CF.jpg */; };
+		EC387623192AEA45001B28E5 /* CorpF.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC38761F192AEA45001B28E5 /* CorpF.jpg */; };
+		EC387624192AEA45001B28E5 /* DF.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC387620192AEA45001B28E5 /* DF.jpg */; };
+		EC387625192AEA45001B28E5 /* EF.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC387621192AEA45001B28E5 /* EF.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -209,6 +214,14 @@
 		EC38760F192AE30B001B28E5 /* EF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EF.png; sourceTree = "<group>"; };
 		EC387614192AE440001B28E5 /* cityscape.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cityscape.gif; sourceTree = "<group>"; };
 		EC387616192AE4BD001B28E5 /* cityscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cityscape.png; sourceTree = "<group>"; };
+		EC387619192AE668001B28E5 /* banner-1024x87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banner-1024x87.png"; sourceTree = "<group>"; };
+		EC38761B192AE7F1001B28E5 /* Grant-Burge-Testimonial.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Grant-Burge-Testimonial.mp4"; sourceTree = "<group>"; };
+		EC38761C192AE7F1001B28E5 /* TSA Polycom Testimonial.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TSA Polycom Testimonial.mp4"; sourceTree = "<group>"; };
+		EC38761D192AE7F1001B28E5 /* WDS Testimonial.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WDS Testimonial.mp4"; sourceTree = "<group>"; };
+		EC38761E192AEA45001B28E5 /* CF.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CF.jpg; sourceTree = "<group>"; };
+		EC38761F192AEA45001B28E5 /* CorpF.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CorpF.jpg; sourceTree = "<group>"; };
+		EC387620192AEA45001B28E5 /* DF.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DF.jpg; sourceTree = "<group>"; };
+		EC387621192AEA45001B28E5 /* EF.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EF.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -420,6 +433,9 @@
 		EC387618192AE58C001B28E5 /* Videos */ = {
 			isa = PBXGroup;
 			children = (
+				EC38761B192AE7F1001B28E5 /* Grant-Burge-Testimonial.mp4 */,
+				EC38761C192AE7F1001B28E5 /* TSA Polycom Testimonial.mp4 */,
+				EC38761D192AE7F1001B28E5 /* WDS Testimonial.mp4 */,
 			);
 			name = Videos;
 			sourceTree = "<group>";
@@ -427,6 +443,11 @@
 		EC60682819298D7E00176DF8 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				EC38761E192AEA45001B28E5 /* CF.jpg */,
+				EC38761F192AEA45001B28E5 /* CorpF.jpg */,
+				EC387620192AEA45001B28E5 /* DF.jpg */,
+				EC387621192AEA45001B28E5 /* EF.jpg */,
+				EC387619192AE668001B28E5 /* banner-1024x87.png */,
 				EC387616192AE4BD001B28E5 /* cityscape.png */,
 				EC387614192AE440001B28E5 /* cityscape.gif */,
 				EC38760C192AE30B001B28E5 /* CF.png */,
@@ -539,14 +560,19 @@
 				EC387615192AE440001B28E5 /* cityscape.gif in Resources */,
 				EC38756F192990FD001B28E5 /* XSell.storyboard in Resources */,
 				EC387605192AD594001B28E5 /* business-connect-sitemap-64x64.png in Resources */,
+				EC387622192AEA45001B28E5 /* CF.jpg in Resources */,
 				EC0F24111927021B00C19426 /* InfoPlist.strings in Resources */,
 				EC387602192AD594001B28E5 /* business-connect-polygon-32x32.png in Resources */,
 				EC387603192AD594001B28E5 /* business-connect-polygon-64x64.png in Resources */,
 				EC387617192AE4BD001B28E5 /* cityscape.png in Resources */,
 				EC3875FE192AD594001B28E5 /* business-connect-link-32x32.png in Resources */,
 				EC0F241C1927021B00C19426 /* Images.xcassets in Resources */,
+				EC387624192AEA45001B28E5 /* DF.jpg in Resources */,
 				EC387611192AE30B001B28E5 /* CorpF.png in Resources */,
 				EC3875FF192AD594001B28E5 /* business-connect-link-64x64.png in Resources */,
+				EC387623192AEA45001B28E5 /* CorpF.jpg in Resources */,
+				EC38761A192AE668001B28E5 /* banner-1024x87.png in Resources */,
+				EC387625192AEA45001B28E5 /* EF.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
