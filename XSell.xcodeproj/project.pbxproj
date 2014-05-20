@@ -79,8 +79,6 @@
 		EC387611192AE30B001B28E5 /* CorpF.png in Resources */ = {isa = PBXBuildFile; fileRef = EC38760D192AE30B001B28E5 /* CorpF.png */; };
 		EC387612192AE30B001B28E5 /* DF.png in Resources */ = {isa = PBXBuildFile; fileRef = EC38760E192AE30B001B28E5 /* DF.png */; };
 		EC387613192AE30B001B28E5 /* EF.png in Resources */ = {isa = PBXBuildFile; fileRef = EC38760F192AE30B001B28E5 /* EF.png */; };
-		EC387615192AE440001B28E5 /* cityscape.gif in Resources */ = {isa = PBXBuildFile; fileRef = EC387614192AE440001B28E5 /* cityscape.gif */; };
-		EC387617192AE4BD001B28E5 /* cityscape.png in Resources */ = {isa = PBXBuildFile; fileRef = EC387616192AE4BD001B28E5 /* cityscape.png */; };
 		EC38761A192AE668001B28E5 /* banner-1024x87.png in Resources */ = {isa = PBXBuildFile; fileRef = EC387619192AE668001B28E5 /* banner-1024x87.png */; };
 		EC387622192AEA45001B28E5 /* CF.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC38761E192AEA45001B28E5 /* CF.jpg */; };
 		EC387623192AEA45001B28E5 /* CorpF.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC38761F192AEA45001B28E5 /* CorpF.jpg */; };
@@ -105,6 +103,7 @@
 		EC38764C192B145D001B28E5 /* Access GE.png in Resources */ = {isa = PBXBuildFile; fileRef = EC387649192B145D001B28E5 /* Access GE.png */; };
 		EC38764D192B145D001B28E5 /* CBLS.png in Resources */ = {isa = PBXBuildFile; fileRef = EC38764A192B145D001B28E5 /* CBLS.png */; };
 		EC38764E192B145D001B28E5 /* Mid Market.png in Resources */ = {isa = PBXBuildFile; fileRef = EC38764B192B145D001B28E5 /* Mid Market.png */; };
+		EC387650192B1917001B28E5 /* cityscape.png in Resources */ = {isa = PBXBuildFile; fileRef = EC38764F192B1917001B28E5 /* cityscape.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -231,8 +230,6 @@
 		EC38760D192AE30B001B28E5 /* CorpF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CorpF.png; sourceTree = "<group>"; };
 		EC38760E192AE30B001B28E5 /* DF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DF.png; sourceTree = "<group>"; };
 		EC38760F192AE30B001B28E5 /* EF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EF.png; sourceTree = "<group>"; };
-		EC387614192AE440001B28E5 /* cityscape.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cityscape.gif; sourceTree = "<group>"; };
-		EC387616192AE4BD001B28E5 /* cityscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cityscape.png; sourceTree = "<group>"; };
 		EC387619192AE668001B28E5 /* banner-1024x87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banner-1024x87.png"; sourceTree = "<group>"; };
 		EC38761E192AEA45001B28E5 /* CF.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CF.jpg; sourceTree = "<group>"; };
 		EC38761F192AEA45001B28E5 /* CorpF.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CorpF.jpg; sourceTree = "<group>"; };
@@ -260,6 +257,7 @@
 		EC387649192B145D001B28E5 /* Access GE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Access GE.png"; sourceTree = "<group>"; };
 		EC38764A192B145D001B28E5 /* CBLS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CBLS.png; sourceTree = "<group>"; };
 		EC38764B192B145D001B28E5 /* Mid Market.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mid Market.png"; sourceTree = "<group>"; };
+		EC38764F192B1917001B28E5 /* cityscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cityscape.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -482,6 +480,7 @@
 				EC387639192B083C001B28E5 /* corporate-and-business-lendingt-500x532.png */,
 				EC38763A192B083C001B28E5 /* equipment-and-aviation-finance-500x532.png */,
 				EC387641192B0F37001B28E5 /* corporate-and-business-lending-512x285.gif */,
+				EC38764F192B1917001B28E5 /* cityscape.png */,
 				EC387642192B0F37001B28E5 /* equipment-and-aviation-finance-512x285.gif */,
 				EC387643192B0F37001B28E5 /* fleet-solutions-512x285.gif */,
 				EC387644192B0F37001B28E5 /* supply-chain-finance-512x285.gif */,
@@ -492,8 +491,6 @@
 				EC387620192AEA45001B28E5 /* DF.jpg */,
 				EC387621192AEA45001B28E5 /* EF.jpg */,
 				EC387619192AE668001B28E5 /* banner-1024x87.png */,
-				EC387616192AE4BD001B28E5 /* cityscape.png */,
-				EC387614192AE440001B28E5 /* cityscape.gif */,
 				EC38760C192AE30B001B28E5 /* CF.png */,
 				EC38760D192AE30B001B28E5 /* CorpF.png */,
 				EC38760E192AE30B001B28E5 /* DF.png */,
@@ -606,6 +603,7 @@
 				EC387600192AD594001B28E5 /* business-connect-module-32x32.png in Resources */,
 				EC38762E192AEFE0001B28E5 /* brochure_DF.pdf in Resources */,
 				EC38764E192B145D001B28E5 /* Mid Market.png in Resources */,
+				EC387650192B1917001B28E5 /* cityscape.png in Resources */,
 				EC387613192AE30B001B28E5 /* EF.png in Resources */,
 				EC38763F192B083C001B28E5 /* fleet-500x532.png in Resources */,
 				EC387648192B0F37001B28E5 /* supply-chain-finance-512x285.gif in Resources */,
@@ -613,7 +611,6 @@
 				EC387645192B0F37001B28E5 /* corporate-and-business-lending-512x285.gif in Resources */,
 				EC387604192AD594001B28E5 /* business-connect-sitemap-32x32.png in Resources */,
 				EC387612192AE30B001B28E5 /* DF.png in Resources */,
-				EC387615192AE440001B28E5 /* cityscape.gif in Resources */,
 				EC387640192B083C001B28E5 /* supply-chain-finance-500x532.png in Resources */,
 				EC38756F192990FD001B28E5 /* XSell.storyboard in Resources */,
 				EC38763D192B083C001B28E5 /* corporate-and-business-lendingt-500x532.png in Resources */,
@@ -623,7 +620,6 @@
 				EC0F24111927021B00C19426 /* InfoPlist.strings in Resources */,
 				EC387602192AD594001B28E5 /* business-connect-polygon-32x32.png in Resources */,
 				EC387603192AD594001B28E5 /* business-connect-polygon-64x64.png in Resources */,
-				EC387617192AE4BD001B28E5 /* cityscape.png in Resources */,
 				EC387646192B0F37001B28E5 /* equipment-and-aviation-finance-512x285.gif in Resources */,
 				EC3875FE192AD594001B28E5 /* business-connect-link-32x32.png in Resources */,
 				EC0F241C1927021B00C19426 /* Images.xcassets in Resources */,
